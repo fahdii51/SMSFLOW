@@ -1,0 +1,126 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default Deny All Catch-All
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        (request.auth.token.email == 'fahdiikhann@gmail.com' && request.auth.token.email_verified == true) ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Connection test collection
+    match /test/{testId} {
+      allow get, list: if true;
+      allow write: if isAdmin();
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow get: if isValidId(userId) && (isOwner(userId) || isAdmin());
+      allow list: if isAdmin();
+      allow create: if isValidId(userId) && isOwner(userId) 
+        && incoming().id == userId 
+        && incoming().role == 'user'
+        && incoming().email is string
+        && incoming().email.size() <= 120;
+      allow update: if isValidId(userId) && (
+        (isOwner(userId) && incoming().diff(existing()).affectedKeys().hasOnly(['fullName', 'updatedAt']) && incoming().fullName.size() <= 100) ||
+        isAdmin()
+      );
+      allow delete: if isValidId(userId) && isAdmin();
+    }
+
+    // Admins Collection
+    match /admins/{adminId} {
+      allow read, write: if isValidId(adminId) && isAdmin();
+    }
+
+    // Wallets Collection
+    match /wallets/{walletId} {
+      allow get: if isValidId(walletId) && (isOwner(walletId) || isAdmin());
+      allow list: if isAdmin();
+      allow create, update, delete: if isValidId(walletId) && isAdmin();
+    }
+
+    // Activations Collection
+    match /activations/{activationId} {
+      allow get: if isValidId(activationId) && (
+        (isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin())) ||
+        (resource.data.token is string && resource.data.token.size() > 0)
+      );
+      allow list: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create, update, delete: if isValidId(activationId) && isAdmin();
+    }
+
+    // Mail Activations Collection
+    match /mailActivations/{mailActivationId} {
+      allow get: if isValidId(mailActivationId) && (
+        (isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin())) ||
+        (resource.data.token is string && resource.data.token.size() > 0)
+      );
+      allow list: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create, update, delete: if isValidId(mailActivationId) && isAdmin();
+    }
+
+    // Deposit Requests Collection
+    match /depositRequests/{requestId} {
+      allow get: if isValidId(requestId) && isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isValidId(requestId) && isSignedIn() 
+        && incoming().userId == request.auth.uid 
+        && incoming().status == 'pending'
+        && incoming().amount is number
+        && incoming().amount >= 50
+        && incoming().method is string
+        && incoming().txnId is string;
+      allow update: if isValidId(requestId) && isAdmin();
+      allow delete: if isValidId(requestId) && isAdmin();
+    }
+
+    // Facebook IDs Inventory
+    match /facebookIds/{facebookId} {
+      allow get: if isValidId(facebookId) && (
+        isAdmin() || 
+        (isSignedIn() && resource.data.soldToId == request.auth.uid)
+      );
+      allow list: if isSignedIn() && (
+        isAdmin() || 
+        resource.data.soldToId == request.auth.uid
+      );
+      allow create, update, delete: if isValidId(facebookId) && isAdmin();
+    }
+
+    // Settings Collection
+    match /settings/{settingId} {
+      allow get, list: if isValidId(settingId);
+      allow create, update, delete: if isValidId(settingId) && isAdmin();
+    }
+  }
+}

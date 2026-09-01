@@ -1,0 +1,389 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile information in the system",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique user UID"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "User email address"
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Full name of the user",
+          "maxLength": 100
+        },
+        "role": {
+          "type": "string",
+          "enum": ["admin", "user"],
+          "description": "User role authorization level"
+        },
+        "isVerified": {
+          "type": "boolean",
+          "description": "Whether user is email verified"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Account creation timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last profile update timestamp"
+        }
+      },
+      "required": ["id", "email", "role", "createdAt", "updatedAt"]
+    },
+    "AdminRecord": {
+      "title": "AdminRecord",
+      "description": "Admin privilege marker document",
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Admin email"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Grant timestamp"
+        }
+      },
+      "required": ["email", "createdAt"]
+    },
+    "Wallet": {
+      "title": "Wallet",
+      "description": "User wallet balance tracking in PKR",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Wallet ID matching user UID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "User ID owner of wallet"
+        },
+        "balance": {
+          "type": "number",
+          "description": "Available balance in PKR"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last balance modification timestamp"
+        }
+      },
+      "required": ["id", "userId", "balance", "updatedAt"]
+    },
+    "Activation": {
+      "title": "Activation",
+      "description": "Phone number SMS activation order",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique activation record ID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "UID of the user who ordered"
+        },
+        "service": {
+          "type": "string",
+          "description": "Service code e.g. fb"
+        },
+        "serviceName": {
+          "type": "string",
+          "description": "Human readable service name"
+        },
+        "activationId": {
+          "type": "string",
+          "description": "Provider activation transaction ID"
+        },
+        "phoneNumber": {
+          "type": "string",
+          "description": "Assigned phone number"
+        },
+        "costUsd": {
+          "type": "number",
+          "description": "Cost in USD"
+        },
+        "sellingPrice": {
+          "type": "number",
+          "description": "Selling price in PKR charged to client"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["waiting", "code_received", "completed", "cancelled"],
+          "description": "Activation progress status"
+        },
+        "otpCode": {
+          "type": "string",
+          "description": "Received OTP SMS code"
+        },
+        "provider": {
+          "type": "string",
+          "enum": ["smsbower", "vsimpro"],
+          "description": "Upstream provider"
+        },
+        "token": {
+          "type": "string",
+          "description": "Public viewer security token"
+        },
+        "shortUrl": {
+          "type": "string",
+          "description": "Short verification link"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Order creation timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        }
+      },
+      "required": ["id", "userId", "service", "phoneNumber", "status", "token", "createdAt", "updatedAt"]
+    },
+    "MailActivation": {
+      "title": "MailActivation",
+      "description": "Temp Gmail address activation order",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique mail activation record ID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "User ID who requested"
+        },
+        "service": {
+          "type": "string",
+          "description": "Service code"
+        },
+        "serviceName": {
+          "type": "string",
+          "description": "Service name"
+        },
+        "mailId": {
+          "type": "string",
+          "description": "Upstream mail ID"
+        },
+        "mailAddress": {
+          "type": "string",
+          "description": "Assigned email address"
+        },
+        "domain": {
+          "type": "string",
+          "description": "Email domain"
+        },
+        "sellingPrice": {
+          "type": "number",
+          "description": "Price in PKR"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["waiting", "code_received", "completed", "cancelled"],
+          "description": "Mail status"
+        },
+        "code": {
+          "type": "string",
+          "description": "Received verification code"
+        },
+        "token": {
+          "type": "string",
+          "description": "Public viewer security token"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        }
+      },
+      "required": ["id", "userId", "mailAddress", "status", "token", "createdAt", "updatedAt"]
+    },
+    "DepositRequest": {
+      "title": "DepositRequest",
+      "description": "Manual deposit request by client",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Deposit request ID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Requester user ID"
+        },
+        "amount": {
+          "type": "number",
+          "description": "Deposit amount in PKR"
+        },
+        "method": {
+          "type": "string",
+          "description": "Payment method used (e.g. Easypaisa, JazzCash, Nayapay)"
+        },
+        "txnId": {
+          "type": "string",
+          "description": "Payment transaction ID / reference"
+        },
+        "screenshotUrl": {
+          "type": "string",
+          "description": "Payment screenshot evidence URL"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "approved", "rejected"],
+          "description": "Admin review status"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Submission timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Review timestamp"
+        }
+      },
+      "required": ["id", "userId", "amount", "method", "txnId", "status", "createdAt", "updatedAt"]
+    },
+    "FacebookId": {
+      "title": "FacebookId",
+      "description": "Pre-warmed Facebook ID in inventory",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Inventory record ID"
+        },
+        "uid": {
+          "type": "string",
+          "description": "FB user ID"
+        },
+        "password": {
+          "type": "string",
+          "description": "FB password"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["available", "sold"],
+          "description": "Availability status"
+        },
+        "soldToId": {
+          "type": "string",
+          "description": "Buyer user ID"
+        },
+        "soldDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Sale timestamp"
+        },
+        "price": {
+          "type": "number",
+          "description": "Price in PKR"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Inventory insertion timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        }
+      },
+      "required": ["id", "uid", "password", "status", "price", "createdAt", "updatedAt"]
+    },
+    "AppSetting": {
+      "title": "AppSetting",
+      "description": "Global application setting item",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Setting key identifier"
+        },
+        "value": {
+          "type": "string",
+          "description": "Serialized configuration value"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last modified timestamp"
+        }
+      },
+      "required": ["id", "value", "updatedAt"]
+    },
+    "ConnectionTest": {
+      "title": "ConnectionTest",
+      "description": "Diagnostic document for testing Firestore connectivity",
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "description": "Status marker"
+        }
+      },
+      "required": ["status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile records with owner access control"
+    },
+    "/admins/{adminId}": {
+      "schema": "AdminRecord",
+      "description": "Admin authorization marker list"
+    },
+    "/wallets/{walletId}": {
+      "schema": "Wallet",
+      "description": "Client wallet balance document"
+    },
+    "/activations/{activationId}": {
+      "schema": "Activation",
+      "description": "SMS activations collection"
+    },
+    "/mailActivations/{mailActivationId}": {
+      "schema": "MailActivation",
+      "description": "Email activations collection"
+    },
+    "/depositRequests/{requestId}": {
+      "schema": "DepositRequest",
+      "description": "Client wallet deposit requests"
+    },
+    "/facebookIds/{facebookId}": {
+      "schema": "FacebookId",
+      "description": "Facebook IDs inventory"
+    },
+    "/settings/{settingId}": {
+      "schema": "AppSetting",
+      "description": "Global dynamic configuration settings"
+    },
+    "/test/{testId}": {
+      "schema": "ConnectionTest",
+      "description": "Connection test doc for validating Firestore availability"
+    }
+  }
+}

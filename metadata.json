@@ -1,0 +1,8 @@
+{
+  "name": "Remix SMSFlow Panel",
+  "description": "SMSFlow Panel - Dual-panel platform for virtual phone numbers, temp Gmail addresses, and Facebook ID reselling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

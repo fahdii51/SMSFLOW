@@ -1,0 +1,691 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "email": "fahadkhannaich00@gmail.com",
+      "full_name": "Fahad Khan",
+      "role": "admin",
+      "password_hash": "3bd86b7361faeddcc86771975538ed4f169e2e6254f890f2326334f8e568473b",
+      "is_verified": true,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:14:44.206Z"
+    },
+    {
+      "id": "client-1",
+      "email": "client@smsflow.com",
+      "full_name": "Test Client",
+      "role": "user",
+      "password_hash": "186474c1f2c2f735a54c2cf82ee8e87f2a5cd30940e280029363fecedfc5328c",
+      "is_verified": true,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:14:44.206Z"
+    },
+    {
+      "id": "u-0015826b",
+      "email": "fahdinaich@gmail.com",
+      "full_name": "Fahd Inaich",
+      "role": "user",
+      "password_hash": "b08f762763da6f4c29b381382c633b57e6618d6e0d037b14286cb041ae838700",
+      "is_verified": true,
+      "created_at": "2026-08-29T19:15:04.793Z",
+      "updated_at": "2026-08-29T19:15:04.793Z"
+    },
+    {
+      "id": "u-7b9cfef3",
+      "email": "fahdiikhann@gmail.com",
+      "full_name": "fahdii khann",
+      "role": "user",
+      "password_hash": "0c5c71488a9d04a4f99d139797c4d4de4cd25f3fe6941c41785fded182059869",
+      "is_verified": true,
+      "created_at": "2026-08-29T19:29:39.064Z",
+      "updated_at": "2026-08-29T19:29:39.064Z"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "w-admin",
+      "user_id": "admin-1",
+      "balance": 100000,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T20:00:12.046Z"
+    },
+    {
+      "id": "w-client",
+      "user_id": "client-1",
+      "balance": 500,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:14:44.206Z"
+    },
+    {
+      "id": "w-lyicbqd",
+      "user_id": "u-0015826b",
+      "balance": 500,
+      "created_at": "2026-08-29T19:15:04.794Z",
+      "updated_at": "2026-08-29T19:18:32.271Z"
+    },
+    {
+      "id": "w-fl0v4s2",
+      "user_id": "u-7b9cfef3",
+      "balance": 340,
+      "created_at": "2026-08-29T19:29:39.065Z",
+      "updated_at": "2026-08-29T20:22:35.896Z"
+    }
+  ],
+  "transactions": [
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 32,
+      "type": "debit",
+      "description": "Purchased 1 Facebook Accounts (UID/Pass)",
+      "txn_id": "FB-4E9CE6A6",
+      "id": "tx-7usj9u6va",
+      "created_at": "2026-08-29T20:22:35.897Z",
+      "updated_at": "2026-08-29T20:22:35.897Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 32,
+      "type": "debit",
+      "description": "Purchased 1 Facebook Accounts (UID/Pass)",
+      "txn_id": "FB-746BBC5A",
+      "id": "tx-z7ha4gewy",
+      "created_at": "2026-08-29T20:22:33.681Z",
+      "updated_at": "2026-08-29T20:22:33.681Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 32,
+      "type": "debit",
+      "description": "Purchased 1 Facebook Accounts (UID/Pass)",
+      "txn_id": "FB-42086F5D",
+      "id": "tx-1b9kcx26h",
+      "created_at": "2026-08-29T20:22:30.164Z",
+      "updated_at": "2026-08-29T20:22:30.164Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 32,
+      "type": "debit",
+      "description": "Purchased 1 Facebook Accounts (UID/Pass)",
+      "txn_id": "FB-722BF0A7",
+      "id": "tx-vfzqdcbr0",
+      "created_at": "2026-08-29T20:22:28.204Z",
+      "updated_at": "2026-08-29T20:22:28.204Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 32,
+      "type": "debit",
+      "description": "Purchased 1 Facebook Accounts (UID/Pass)",
+      "txn_id": "FB-EC9D3779",
+      "id": "tx-6h3f5pkpa",
+      "created_at": "2026-08-29T20:22:25.094Z",
+      "updated_at": "2026-08-29T20:22:25.094Z"
+    },
+    {
+      "user_id": "admin-1",
+      "amount": 14,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 17624204388",
+      "txn_id": "REF-C-597790629",
+      "id": "tx-3veqxqlyt",
+      "created_at": "2026-08-29T20:00:12.046Z",
+      "updated_at": "2026-08-29T20:00:12.046Z"
+    },
+    {
+      "user_id": "admin-1",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 17624204388",
+      "txn_id": "ACT-597790629",
+      "id": "tx-r8a6bc93a",
+      "created_at": "2026-08-29T20:00:07.315Z",
+      "updated_at": "2026-08-29T20:00:07.315Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 500,
+      "type": "credit",
+      "description": "Admin Adjustment",
+      "txn_id": "ADJ-761819",
+      "id": "tx-rvvjjc7hc",
+      "created_at": "2026-08-29T19:44:04.450Z",
+      "updated_at": "2026-08-29T19:44:04.450Z"
+    },
+    {
+      "user_id": "u-0015826b",
+      "amount": 14,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 12536796608",
+      "txn_id": "REF-C-597707769",
+      "id": "tx-na7fbaup1",
+      "created_at": "2026-08-29T19:18:32.272Z",
+      "updated_at": "2026-08-29T19:18:32.272Z"
+    },
+    {
+      "user_id": "u-0015826b",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12536796608",
+      "txn_id": "ACT-597707769",
+      "id": "tx-kohxy66bj",
+      "created_at": "2026-08-29T19:18:21.091Z",
+      "updated_at": "2026-08-29T19:18:21.091Z"
+    },
+    {
+      "user_id": "u-0015826b",
+      "amount": 500,
+      "type": "credit",
+      "description": "Funded Wallet via Admin Approval (EasyPaisa)",
+      "txn_id": "7373737",
+      "payment_method": "EasyPaisa",
+      "id": "tx-39mu0aej5",
+      "created_at": "2026-08-29T19:16:42.523Z",
+      "updated_at": "2026-08-29T19:16:42.523Z"
+    }
+  ],
+  "activations": [
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "597790629",
+      "phone_number": "17624204388",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "6c26daf6e3b1",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "admin-1",
+      "id": "act-ll0mvpw2q",
+      "created_at": "2026-08-29T20:00:07.315Z",
+      "updated_at": "2026-08-29T20:00:12.046Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "597707769",
+      "phone_number": "12536796608",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "4a31b3a13fb8",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0015826b",
+      "id": "act-nxygb10jv",
+      "created_at": "2026-08-29T19:18:21.091Z",
+      "updated_at": "2026-08-29T19:18:32.272Z"
+    }
+  ],
+  "mailActivations": [],
+  "facebookIds": [
+    {
+      "id": "fb-id-1",
+      "uid": "1000829491786",
+      "password": "Pass_L9YBG45P",
+      "status": "sold",
+      "price": 32,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T20:22:25.093Z",
+      "created_by_id": "admin-1",
+      "sold_to_id": "u-7b9cfef3",
+      "sold_date": "2026-08-29T20:22:25.093Z"
+    },
+    {
+      "id": "fb-id-2",
+      "uid": "1000971421029",
+      "password": "Pass_HGCVIDMT",
+      "status": "sold",
+      "price": 32,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T20:22:28.204Z",
+      "created_by_id": "admin-1",
+      "sold_to_id": "u-7b9cfef3",
+      "sold_date": "2026-08-29T20:22:28.204Z"
+    },
+    {
+      "id": "fb-id-3",
+      "uid": "1000240139270",
+      "password": "Pass_G2C2EGP5",
+      "status": "sold",
+      "price": 32,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T20:22:30.164Z",
+      "created_by_id": "admin-1",
+      "sold_to_id": "u-7b9cfef3",
+      "sold_date": "2026-08-29T20:22:30.164Z"
+    },
+    {
+      "id": "fb-id-4",
+      "uid": "1000987445401",
+      "password": "Pass_KSKL153V",
+      "status": "sold",
+      "price": 32,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T20:22:33.680Z",
+      "created_by_id": "admin-1",
+      "sold_to_id": "u-7b9cfef3",
+      "sold_date": "2026-08-29T20:22:33.680Z"
+    },
+    {
+      "id": "fb-id-5",
+      "uid": "1000719321940",
+      "password": "Pass_L7DI6SL1",
+      "status": "sold",
+      "price": 32,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T20:22:35.896Z",
+      "created_by_id": "admin-1",
+      "sold_to_id": "u-7b9cfef3",
+      "sold_date": "2026-08-29T20:22:35.896Z"
+    }
+  ],
+  "depositRequests": [
+    {
+      "user_id": "u-0015826b",
+      "amount": 500,
+      "method": "EasyPaisa",
+      "txn_id": "7373737",
+      "screenshot_url": "",
+      "status": "approved",
+      "created_by_id": "u-0015826b",
+      "id": "dep-2da88wl34",
+      "created_at": "2026-08-29T19:16:28.922Z",
+      "updated_at": "2026-08-29T19:16:42.522Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-fb",
+      "service_code": "fb",
+      "service_name": "Facebook",
+      "is_active": true,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:14:44.206Z"
+    },
+    {
+      "id": "srv-go",
+      "service_code": "go",
+      "service_name": "Gmail / Google",
+      "is_active": true,
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:57:27.195Z"
+    }
+  ],
+  "settings": [
+    {
+      "id": "s-1",
+      "key": "countries",
+      "value": "[\n  {\n    \"name\": \"USA\",\n    \"provider\": \"smsbower\",\n    \"countryId\": 12,\n    \"maxPrice\": 0.031,\n    \"sell\": 14\n  }\n]",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.771Z"
+    },
+    {
+      "id": "s-2",
+      "key": "public_otp_url",
+      "value": "",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.771Z"
+    },
+    {
+      "id": "s-3",
+      "key": "short_link_prefix",
+      "value": "",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.771Z"
+    },
+    {
+      "id": "s-4",
+      "key": "gmail_price",
+      "value": "15",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "s-5",
+      "key": "gmail_mail_price",
+      "value": "20",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "s-6",
+      "key": "gmail_mail_max_price",
+      "value": "0.05",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "s-7",
+      "key": "deposit_methods",
+      "value": "[]",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "s-8",
+      "key": "contact_info",
+      "value": "{}",
+      "created_at": "2026-08-29T19:14:44.206Z",
+      "updated_at": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "s-s1jnj4r9f",
+      "key": "otp_api_key",
+      "value": "yu5BsIwXebcjYInuoaYDGojVW1ayPOFv",
+      "created_at": "2026-08-29T19:44:19.569Z",
+      "updated_at": "2026-08-29T19:54:56.837Z"
+    },
+    {
+      "id": "s-xynseki1s",
+      "key": "vsimpro_api_key",
+      "value": "ac4e4fe30b0c48c008da78cdab113fb913cd",
+      "created_at": "2026-08-29T19:44:19.569Z",
+      "updated_at": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "s-xdqbz5k9v",
+      "key": "smsbower_base_url",
+      "value": "https://smsbower.online",
+      "created_at": "2026-08-29T19:44:19.570Z",
+      "updated_at": "2026-08-29T19:54:56.838Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-yi1m8745n",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadkhannaich00@gmail.com",
+      "user_id": "admin-1",
+      "user_email": "fahadkhannaich00@gmail.com",
+      "timestamp": "2026-08-29T20:27:38.829Z"
+    },
+    {
+      "id": "log-ygkma9l3s",
+      "action": "FB_IDS_PURCHASE",
+      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T20:22:35.897Z"
+    },
+    {
+      "id": "log-9o60ksest",
+      "action": "FB_IDS_PURCHASE",
+      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T20:22:33.681Z"
+    },
+    {
+      "id": "log-zj7nrapeu",
+      "action": "FB_IDS_PURCHASE",
+      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T20:22:30.164Z"
+    },
+    {
+      "id": "log-k0jl2hy5j",
+      "action": "FB_IDS_PURCHASE",
+      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T20:22:28.204Z"
+    },
+    {
+      "id": "log-gub6ayhn5",
+      "action": "FB_IDS_PURCHASE",
+      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T20:22:25.094Z"
+    },
+    {
+      "id": "log-fk0bbix39",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdiikhann@gmail.com",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T20:21:51.976Z"
+    },
+    {
+      "id": "log-yc5wqm25d",
+      "action": "USER_LOGIN",
+      "details": "Logged in admin@smsflow.com",
+      "user_id": "admin-1",
+      "user_email": "admin@smsflow.com",
+      "timestamp": "2026-08-29T20:00:30.787Z"
+    },
+    {
+      "id": "log-x9a12s0ne",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 17624204388. Balance refunded.",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T20:00:12.046Z"
+    },
+    {
+      "id": "log-2akxd93dg",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 17624204388 for 14 PKR (ID: 597790629)",
+      "user_id": "admin-1",
+      "user_email": "admin@smsflow.com",
+      "timestamp": "2026-08-29T20:00:07.316Z"
+    },
+    {
+      "id": "log-bm7iwffiw",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, vsimpro_api_key",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:59:54.772Z"
+    },
+    {
+      "id": "log-qovga9hus",
+      "action": "SERVICE_TOGGLE",
+      "details": "Toggled service go to true",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:57:27.196Z"
+    },
+    {
+      "id": "log-3liqk3tri",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:54:56.838Z"
+    },
+    {
+      "id": "log-3oo6557ok",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:54:16.687Z"
+    },
+    {
+      "id": "log-6q3grz1m0",
+      "action": "SERVICE_TOGGLE",
+      "details": "Toggled service go to false",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:53:06.612Z"
+    },
+    {
+      "id": "log-570j0708j",
+      "action": "COUNTRIES_DISCOVER",
+      "details": "Discovered and added cheap country configurations. Total now: 4",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:52:14.828Z"
+    },
+    {
+      "id": "log-gn9405f3i",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:51:51.899Z"
+    },
+    {
+      "id": "log-eeydibbv8",
+      "action": "COUNTRIES_DISCOVER",
+      "details": "Discovered and added cheap country configurations. Total now: 4",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:51:03.453Z"
+    },
+    {
+      "id": "log-cw6r3txhc",
+      "action": "COUNTRIES_DISCOVER",
+      "details": "Discovered and added cheap country configurations. Total now: 4",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:51:02.159Z"
+    },
+    {
+      "id": "log-ju1a0wdp0",
+      "action": "COUNTRIES_DISCOVER",
+      "details": "Discovered and added cheap country configurations. Total now: 4",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:50:59.488Z"
+    },
+    {
+      "id": "log-20jquzmsr",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:44:19.570Z"
+    },
+    {
+      "id": "log-8sa5hieo7",
+      "action": "BALANCE_ADJUST",
+      "details": "Admin manually adjusted balance of fahdiikhann@gmail.com by 500 PKR. New: 500",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:44:04.450Z"
+    },
+    {
+      "id": "log-6mlwmazju",
+      "action": "USER_LOGIN",
+      "details": "Logged in admin@smsflow.com",
+      "user_id": "admin-1",
+      "user_email": "admin@smsflow.com",
+      "timestamp": "2026-08-29T19:43:53.137Z"
+    },
+    {
+      "id": "log-jjkt652tr",
+      "action": "USER_GOOGLE_REGISTER",
+      "details": "Registered and logged in via Google: fahdiikhann@gmail.com",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-08-29T19:29:39.065Z"
+    },
+    {
+      "id": "log-aooqtq6wt",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdinaich@gmail.com",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:24:50.879Z"
+    },
+    {
+      "id": "log-7hbtu0cla",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 12536796608. Balance refunded.",
+      "user_id": "u-0015826b",
+      "timestamp": "2026-08-29T19:18:32.272Z"
+    },
+    {
+      "id": "log-vyqdtuq8d",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 12536796608 for 14 PKR (ID: 597707769)",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:18:21.091Z"
+    },
+    {
+      "id": "log-vsdiwvnss",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdinaich@gmail.com",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:18:14.579Z"
+    },
+    {
+      "id": "log-xelcit4kq",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:18:05.874Z"
+    },
+    {
+      "id": "log-pdnse1occ",
+      "action": "USER_LOGIN",
+      "details": "Logged in admin@smsflow.com",
+      "user_id": "admin-1",
+      "user_email": "admin@smsflow.com",
+      "timestamp": "2026-08-29T19:17:03.894Z"
+    },
+    {
+      "id": "log-j76b0ijv7",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdinaich@gmail.com",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:16:46.275Z"
+    },
+    {
+      "id": "log-3r80f6sui",
+      "action": "DEPOSIT_APPROVE",
+      "details": "Approved 500 PKR for client fahdinaich@gmail.com",
+      "user_id": "admin-1",
+      "timestamp": "2026-08-29T19:16:42.523Z"
+    },
+    {
+      "id": "log-v56ebawel",
+      "action": "USER_LOGIN",
+      "details": "Logged in admin@smsflow.com",
+      "user_id": "admin-1",
+      "user_email": "admin@smsflow.com",
+      "timestamp": "2026-08-29T19:16:33.193Z"
+    },
+    {
+      "id": "log-oc7s1y8wm",
+      "action": "DEPOSIT_REQUEST",
+      "details": "Submitted deposit request of 500 PKR via EasyPaisa (TID: 7373737)",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:16:28.922Z"
+    },
+    {
+      "id": "log-6kygapu4b",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdinaich@gmail.com",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:16:13.022Z"
+    },
+    {
+      "id": "log-xxr91q54x",
+      "action": "USER_LOGIN",
+      "details": "Logged in admin@smsflow.com",
+      "user_id": "admin-1",
+      "user_email": "admin@smsflow.com",
+      "timestamp": "2026-08-29T19:15:24.179Z"
+    },
+    {
+      "id": "log-8c5x0q7fq",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdinaich@gmail.com",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:15:09.340Z"
+    },
+    {
+      "id": "log-wvjtzzxe1",
+      "action": "USER_GOOGLE_REGISTER",
+      "details": "Registered and logged in via Google: fahdinaich@gmail.com",
+      "user_id": "u-0015826b",
+      "user_email": "fahdinaich@gmail.com",
+      "timestamp": "2026-08-29T19:15:04.794Z"
+    },
+    {
+      "id": "log-1",
+      "action": "SYSTEM_START",
+      "details": "Database initialized with default settings and seed users",
+      "timestamp": "2026-08-29T19:14:44.206Z"
+    }
+  ]
+}
