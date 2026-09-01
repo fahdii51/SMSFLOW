@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Smartphone, Eye, EyeOff, Mail, Lock, User, RefreshCw, Key, Check } from 'lucide-react';
 import { auth, googleProvider, handleFirestoreError, OperationType } from '../firebase';
 import { signInWithPopup } from 'firebase/auth';
+import { apiClient } from '../config/api';
 
 interface AuthPagesProps {
   onLoginSuccess: (token: string, user: any) => void;
@@ -27,11 +28,7 @@ export default function AuthPages({ onLoginSuccess, showToast }: AuthPagesProps)
     setLoading(true);
     setDevOtpNotice(null);
     try {
-      const res = await fetch('/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password })
-      });
+      const res = await apiClient.login(email, password);
       const data = await res.json();
       if (res.ok) {
         showToast("Logged in successfully!", "success");
@@ -61,11 +58,7 @@ export default function AuthPages({ onLoginSuccess, showToast }: AuthPagesProps)
     setLoading(true);
     setDevOtpNotice(null);
     try {
-      const res = await fetch('/auth/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password, full_name: fullName })
-      });
+      const res = await apiClient.register(email, password, fullName);
       const data = await res.json();
       if (res.ok) {
         showToast("Account created successfully! Welcome to SMSFlow.", "success");
@@ -85,11 +78,7 @@ export default function AuthPages({ onLoginSuccess, showToast }: AuthPagesProps)
     if (!otpCode) return;
     setLoading(true);
     try {
-      const res = await fetch('/auth/verify-otp', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: pendingVerifyEmail || email, otp: otpCode })
-      });
+      const res = await apiClient.verifyOtp(pendingVerifyEmail || email, otpCode);
       const data = await res.json();
       if (res.ok) {
         showToast("Account verified successfully!", "success");
@@ -122,15 +111,7 @@ export default function AuthPages({ onLoginSuccess, showToast }: AuthPagesProps)
         // Fallback for sandboxed environments without popups enabled
       }
 
-      const res = await fetch('/auth/google', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email,
-          name,
-          id_token: idToken
-        })
-      });
+      const res = await apiClient.googleAuth(email, name, idToken);
       const data = await res.json();
       if (res.ok) {
         showToast("Connected with Google via Firebase!", "success");
@@ -397,19 +378,11 @@ export default function AuthPages({ onLoginSuccess, showToast }: AuthPagesProps)
                 if (!email) return;
                 setLoading(true);
                 try {
-                  const res = await fetch('/auth/forgot-password', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ email })
-                  });
+                  const res = await apiClient.forgotPassword(email);
                   const d = await res.json();
                   showToast(d.message, "success");
                   // Demo experience: auto-change pass to 'reset123' for demonstration
-                  const resetRes = await fetch('/auth/reset-password', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ token: "demo", password: "reset123" })
-                  });
+                  const resetRes = await apiClient.resetPassword(email, "demo", "reset123");
                   const rd = await resetRes.json();
                   showToast("DEMO WORKFLOW: Demo password reset to 'reset123' for verification!", "success");
                   setScreen('login');
