@@ -3,6 +3,10 @@ import { db } from '../server/db';
 
 let isDbInitialized = false;
 
+export const config = {
+  runtime: 'nodejs18.x',
+};
+
 export default async function handler(req: any, res: any) {
   if (!isDbInitialized) {
     try {
