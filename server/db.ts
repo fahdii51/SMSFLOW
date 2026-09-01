@@ -157,6 +157,10 @@ class Database {
   }
 
   public async initMongo() {
+    if (this.mongoClient) {
+      console.log("[MONGODB] Already connected to MongoDB Atlas.");
+      return;
+    }
     const MONGO_URI = "mongodb+srv://fahdiii:Alikhan12@cluster0.4pzbxgh.mongodb.net/?appName=Cluster0";
     try {
       console.log("[MONGODB] Connecting to MongoDB Atlas Cluster...");

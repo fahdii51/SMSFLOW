@@ -1,22 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "devCommand": "npm run dev",
-  "env": {
-    "VITE_APP_URL": "@app_url"
-  },
+  "version": 2,
   "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api"
-    },
-    {
-      "source": "/auth/(.*)",
-      "destination": "/api"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/api/:path*", "destination": "/api/index.ts" },
+    { "source": "/auth/:path*", "destination": "/api/index.ts" },
+    { "source": "/((?!assets|favicon.ico|index.html).*)" , "destination": "/index.html" }
   ]
 }

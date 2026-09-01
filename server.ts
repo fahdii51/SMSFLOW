@@ -17,8 +17,9 @@ interface CountryConfig {
 }
 
 // Initialize express app
-export const app = express();
-const PORT = Number(process.env.PORT) || 3000;
+const app = express();
+export { app };
+const PORT = 3000;
 
 // Enable CORS for public endpoints and JSON parsing
 app.use(cors({ origin: '*' }));
@@ -69,23 +70,6 @@ function requireAdmin(req: Request, res: Response, next: NextFunction) {
 function logActivity(action: string, details: string, req?: Request) {
   const user = req ? getAuthUser(req) : null;
   db.addLog(action, details, user?.id, user?.email);
-}
-
-let dbInitPromise: Promise<void> | null = null;
-
-async function ensureDatabaseReady() {
-  if (!dbInitPromise) {
-    dbInitPromise = (async () => {
-      try {
-        await db.initMongo();
-        console.log('[SERVER] MongoDB initialized');
-      } catch (err) {
-        console.error('[SERVER] MongoDB initialization failed, fallback to local file DB:', err);
-      }
-    })();
-  }
-
-  await dbInitPromise;
 }
 
 // ==========================================
@@ -1910,40 +1894,40 @@ app.delete('/api/admin/fb-ids/:id', requireAdmin, (req, res) => {
 // ==========================================
 
 async function startServer() {
-  await ensureDatabaseReady();
-
-  if (process.env.VERCEL) {
-    console.log("[SERVER] Vercel runtime detected; skipping local HTTP listener.");
-    return;
+  // Connect to MongoDB and fetch latest state before handling any request
+  try {
+    await db.initMongo();
+  } catch (err) {
+    console.error("[SERVER] MongoDB initialization failed, fallback to local file DB:", err);
   }
 
   if (process.env.NODE_ENV !== "production") {
     // Development mode with Vite HMR Middleware
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: "spa",
-    });
-    app.use(vite.middlewares);
-    console.log("[SERVER] Vite dev server middleware mounted");
+    if (!process.env.VERCEL) {
+      const vite = await createViteServer({
+        server: { middlewareMode: true },
+        appType: "spa",
+      });
+      app.use(vite.middlewares);
+      console.log("[SERVER] Vite dev server middleware mounted");
+    }
   } else {
     // Production Mode: Serve Compiled Frontend Assets
-    const distPath = path.join(process.cwd(), 'dist');
-    app.use(express.static(distPath));
-    app.get('*', (req, res) => {
-      res.sendFile(path.join(distPath, 'index.html'));
-    });
-    console.log("[SERVER] Production static handler mounted serving dist/");
+    if (!process.env.VERCEL) {
+      const distPath = path.join(process.cwd(), 'dist');
+      app.use(express.static(distPath));
+      app.get('*', (req, res) => {
+        res.sendFile(path.join(distPath, 'index.html'));
+      });
+      console.log("[SERVER] Production static handler mounted serving dist/");
+    }
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`[SERVER] SMSFlow Panel backend running on http://localhost:${PORT}`);
-  });
+  if (!process.env.VERCEL) {
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`[SERVER] SMSFlow Panel backend running on http://localhost:${PORT}`);
+    });
+  }
 }
 
-void ensureDatabaseReady();
-
-if (!process.env.VERCEL) {
-  startServer();
-}
-
-export default app;
+startServer();

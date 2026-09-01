@@ -1,3 +1,17 @@
-import app from '../server';
+import { app } from '../server';
+import { db } from '../server/db';
 
-export default app;
+let isDbInitialized = false;
+
+export default async function handler(req: any, res: any) {
+  if (!isDbInitialized) {
+    try {
+      console.log("[VERCEL SERVERLESS] Initializing database connection...");
+      await db.initMongo();
+      isDbInitialized = true;
+    } catch (err) {
+      console.error("[VERCEL SERVERLESS] MongoDB init error:", err);
+    }
+  }
+  return app(req, res);
+}
