@@ -4,17 +4,17 @@
  */
 
 export const getApiBaseUrl = (): string => {
+  const env = (import.meta as any).env || {};
   // In production (Vercel), use the VITE_APP_URL from environment
-  if (import.meta.env.PROD && import.meta.env.VITE_APP_URL) {
-    return import.meta.env.VITE_APP_URL;
+  if (env.PROD && env.VITE_APP_URL) {
+    return env.VITE_APP_URL;
   }
   
-  // If no VITE_APP_URL but in production, use current origin
-  if (import.meta.env.PROD) {
+  // Use current origin (handles AI Studio Preview Containers, Localhost, and Vercel automatically)
+  if (typeof window !== 'undefined' && window.location) {
     return window.location.origin;
   }
   
-  // In development, use localhost:3000 (Vite proxy will handle routing)
   return 'http://localhost:3000';
 };
 
