@@ -4,18 +4,14 @@
  */
 
 export const getApiBaseUrl = (): string => {
-  const env = (import.meta as any).env || {};
   // In production (Vercel), use the VITE_APP_URL from environment
-  if (env.PROD && env.VITE_APP_URL) {
-    return env.VITE_APP_URL;
+  if (import.meta.env.PROD && import.meta.env.VITE_APP_URL) {
+    return import.meta.env.VITE_APP_URL;
   }
   
-  // Use current origin (handles AI Studio Preview Containers, Localhost, and Vercel automatically)
-  if (typeof window !== 'undefined' && window.location) {
-    return window.location.origin;
-  }
-  
-  return 'http://localhost:3000';
+  // Return empty string to default to relative paths for maximum compatibility,
+  // speed, and absolute immunity against CORS preflight errors in local & preview containers.
+  return '';
 };
 
 /**
@@ -23,7 +19,12 @@ export const getApiBaseUrl = (): string => {
  */
 const buildUrl = (path: string): string => {
   const baseUrl = getApiBaseUrl();
-  return new URL(path, baseUrl).toString();
+  if (!baseUrl) {
+    return path;
+  }
+  const cleanBase = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+  const cleanPath = path.startsWith('/') ? path : '/' + path;
+  return cleanBase + cleanPath;
 };
 
 /**

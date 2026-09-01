@@ -15,10 +15,10 @@
       "email": "client@smsflow.com",
       "full_name": "Test Client",
       "role": "user",
-      "password_hash": "186474c1f2c2f735a54c2cf82ee8e87f2a5cd30940e280029363fecedfc5328c",
+      "password_hash": "2eebf679d102737c877e389ddb099f0abb05514e2a481b2edccb7a50f3845819",
       "is_verified": true,
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:14:44.206Z"
+      "updated_at": "2026-08-30T17:01:17.317Z"
     },
     {
       "id": "u-0015826b",
@@ -39,6 +39,66 @@
       "is_verified": true,
       "created_at": "2026-08-29T19:29:39.064Z",
       "updated_at": "2026-08-29T19:29:39.064Z"
+    },
+    {
+      "id": "u-1626d82b",
+      "email": "fahadalinaich677@gmail.com",
+      "full_name": "Fahad",
+      "role": "user",
+      "password_hash": "0f7551bcdb783b1186b16a46409de6b290b396eebacd49ec625928a288991488",
+      "is_verified": true,
+      "created_at": "2026-08-30T08:33:40.718Z",
+      "updated_at": "2026-08-30T08:33:40.718Z"
+    },
+    {
+      "id": "u-0c55b0c9",
+      "email": "fahadalinaich67@gmail.com",
+      "full_name": "Fahad Ali",
+      "role": "user",
+      "password_hash": "3bd86b7361faeddcc86771975538ed4f169e2e6254f890f2326334f8e568473b",
+      "is_verified": true,
+      "created_at": "2026-08-30T08:46:28.996Z",
+      "updated_at": "2026-08-30T08:46:28.996Z"
+    },
+    {
+      "id": "u-d42e10ed",
+      "email": "naichq4deer@gmail.com",
+      "full_name": "BadBoy Qadeer",
+      "role": "user",
+      "password_hash": "99fb6e053e4b25f8700d4156f7e885f6be818a457de9aa6c68054dd4ad3a3d4d",
+      "is_verified": true,
+      "created_at": "2026-08-30T10:17:18.997Z",
+      "updated_at": "2026-08-30T10:17:18.997Z"
+    },
+    {
+      "id": "u-c029be12",
+      "email": "basitnaich0@gmail.com",
+      "full_name": "Basit",
+      "role": "user",
+      "password_hash": "afbdf8a21957fab69910c4e20a05e0123233bd0a397297f951316275fc45fd98",
+      "is_verified": true,
+      "created_at": "2026-08-30T17:02:23.201Z",
+      "updated_at": "2026-08-30T17:02:23.201Z"
+    },
+    {
+      "id": "u-1c5928e0",
+      "email": "meermohammad986@gmail.com",
+      "full_name": "Meer",
+      "role": "user",
+      "password_hash": "92a23eb357f1c8fd74ca1f1eabb40ee09feb4c1b31197307f8768d085afc75d1",
+      "is_verified": true,
+      "created_at": "2026-08-30T17:45:44.452Z",
+      "updated_at": "2026-08-30T17:45:44.452Z"
+    },
+    {
+      "id": "u-e245cfa3",
+      "email": "demo123@test.com",
+      "full_name": "Demo User",
+      "role": "user",
+      "password_hash": "46708f23d682fef9aa996ecbb139bfb6c9ffdc039905ad6ad5c85a88b9411d97",
+      "is_verified": true,
+      "created_at": "2026-09-01T23:19:20.373Z",
+      "updated_at": "2026-09-01T23:19:20.373Z"
     }
   ],
   "wallets": [
@@ -66,12 +126,1174 @@
     {
       "id": "w-fl0v4s2",
       "user_id": "u-7b9cfef3",
-      "balance": 340,
+      "balance": 322.8,
       "created_at": "2026-08-29T19:29:39.065Z",
-      "updated_at": "2026-08-29T20:22:35.896Z"
+      "updated_at": "2026-08-30T18:37:47.061Z"
+    },
+    {
+      "id": "w-tiqtzuq",
+      "user_id": "u-1626d82b",
+      "balance": 0,
+      "created_at": "2026-08-30T08:33:40.720Z",
+      "updated_at": "2026-08-30T08:33:40.720Z"
+    },
+    {
+      "id": "w-3omw094",
+      "user_id": "u-0c55b0c9",
+      "balance": 49837.6,
+      "created_at": "2026-08-30T08:46:28.998Z",
+      "updated_at": "2026-09-01T18:22:35.619Z"
+    },
+    {
+      "id": "w-co3p0sl",
+      "user_id": "u-d42e10ed",
+      "balance": 278.4,
+      "created_at": "2026-08-30T10:17:18.998Z",
+      "updated_at": "2026-09-01T15:24:24.947Z"
+    },
+    {
+      "id": "w-17yotoh",
+      "user_id": "u-c029be12",
+      "balance": 0,
+      "created_at": "2026-08-30T17:02:23.202Z",
+      "updated_at": "2026-08-30T17:02:23.202Z"
+    },
+    {
+      "id": "w-a87m2qk",
+      "user_id": "u-1c5928e0",
+      "balance": 0,
+      "created_at": "2026-08-30T17:45:44.453Z",
+      "updated_at": "2026-08-30T17:45:44.453Z"
+    },
+    {
+      "id": "w-wsa7nce",
+      "user_id": "u-e245cfa3",
+      "balance": 0,
+      "created_at": "2026-09-01T23:19:20.376Z",
+      "updated_at": "2026-09-01T23:19:20.376Z"
     }
   ],
   "transactions": [
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 16074600542",
+      "txn_id": "ACT-604954098",
+      "id": "tx-xyqy5jwlc",
+      "created_at": "2026-09-01T18:22:37.937Z",
+      "updated_at": "2026-09-01T18:22:37.937Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 16318027953",
+      "txn_id": "ACT-604679596",
+      "id": "tx-jztnyea95",
+      "created_at": "2026-09-01T16:03:06.225Z",
+      "updated_at": "2026-09-01T16:03:06.225Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 14423719306",
+      "txn_id": "REF-C-604673511",
+      "id": "tx-df49wwve2",
+      "created_at": "2026-09-01T16:01:07.995Z",
+      "updated_at": "2026-09-01T16:01:07.995Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 14423719306",
+      "txn_id": "ACT-604673511",
+      "id": "tx-kdcss9t69",
+      "created_at": "2026-09-01T16:00:06.647Z",
+      "updated_at": "2026-09-01T16:00:06.647Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 13504446207",
+      "txn_id": "REF-C-604673088",
+      "id": "tx-3zco39tdv",
+      "created_at": "2026-09-01T16:00:06.098Z",
+      "updated_at": "2026-09-01T16:00:06.098Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 13504446207",
+      "txn_id": "ACT-604673088",
+      "id": "tx-ddli51f8s",
+      "created_at": "2026-09-01T15:59:51.637Z",
+      "updated_at": "2026-09-01T15:59:51.637Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 15855799074",
+      "txn_id": "REF-C-604667974",
+      "id": "tx-wkcyke3pm",
+      "created_at": "2026-09-01T15:59:45.833Z",
+      "updated_at": "2026-09-01T15:59:45.833Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 15855799074",
+      "txn_id": "ACT-604667974",
+      "id": "tx-8mhvjlcgh",
+      "created_at": "2026-09-01T15:57:15.732Z",
+      "updated_at": "2026-09-01T15:57:15.732Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 18654863813",
+      "txn_id": "AUTO-REF-604567658",
+      "id": "tx-nqexrgrey",
+      "created_at": "2026-09-01T15:56:09.194Z",
+      "updated_at": "2026-09-01T15:56:09.194Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18544588965",
+      "txn_id": "REF-C-604594073",
+      "id": "tx-r37a2drmb",
+      "created_at": "2026-09-01T15:24:24.949Z",
+      "updated_at": "2026-09-01T15:24:24.949Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18544588965",
+      "txn_id": "REF-C-604594073",
+      "id": "tx-ckggswkos",
+      "created_at": "2026-09-01T15:24:24.752Z",
+      "updated_at": "2026-09-01T15:24:24.752Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "credit",
+      "description": "Refund (Provider Cancelled) for Facebook Virtual Number: 18544588965",
+      "txn_id": "REF-604594073",
+      "id": "tx-dgexdj567",
+      "created_at": "2026-09-01T15:24:24.469Z",
+      "updated_at": "2026-09-01T15:24:24.469Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18544588965",
+      "txn_id": "REF-C-604594073",
+      "id": "tx-50qadu4g5",
+      "created_at": "2026-09-01T15:24:24.278Z",
+      "updated_at": "2026-09-01T15:24:24.278Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18544588965",
+      "txn_id": "REF-C-604594073",
+      "id": "tx-4m9cdhmho",
+      "created_at": "2026-09-01T15:24:24.106Z",
+      "updated_at": "2026-09-01T15:24:24.106Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18544588965",
+      "txn_id": "REF-C-604594073",
+      "id": "tx-sk5syo9zs",
+      "created_at": "2026-09-01T15:24:23.954Z",
+      "updated_at": "2026-09-01T15:24:23.954Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 18544588965",
+      "txn_id": "ACT-604594073",
+      "id": "tx-sohvdqryp",
+      "created_at": "2026-09-01T15:18:58.238Z",
+      "updated_at": "2026-09-01T15:18:58.238Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 19378884492",
+      "txn_id": "ACT-604589527",
+      "id": "tx-61g9wlpyf",
+      "created_at": "2026-09-01T15:16:35.094Z",
+      "updated_at": "2026-09-01T15:16:35.094Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 13616054375",
+      "txn_id": "REF-C-604576834",
+      "id": "tx-05pwnl8pz",
+      "created_at": "2026-09-01T15:09:59.403Z",
+      "updated_at": "2026-09-01T15:09:59.403Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 16187507404",
+      "txn_id": "ACT-604577210",
+      "id": "tx-bxruv45j8",
+      "created_at": "2026-09-01T15:09:58.555Z",
+      "updated_at": "2026-09-01T15:09:58.555Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 13616054375",
+      "txn_id": "REF-C-604576834",
+      "id": "tx-crmni7gxy",
+      "created_at": "2026-09-01T15:09:56.515Z",
+      "updated_at": "2026-09-01T15:09:56.515Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 13616054375",
+      "txn_id": "ACT-604576834",
+      "id": "tx-2ddskvcid",
+      "created_at": "2026-09-01T15:09:47.171Z",
+      "updated_at": "2026-09-01T15:09:47.171Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 13374539972",
+      "txn_id": "REF-C-604576493",
+      "id": "tx-ogssukl9a",
+      "created_at": "2026-09-01T15:09:47.059Z",
+      "updated_at": "2026-09-01T15:09:47.059Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 13374539972",
+      "txn_id": "ACT-604576493",
+      "id": "tx-4xqbozded",
+      "created_at": "2026-09-01T15:09:37.574Z",
+      "updated_at": "2026-09-01T15:09:37.574Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 19147502329",
+      "txn_id": "ACT-604568475",
+      "id": "tx-psqnqtnr3",
+      "created_at": "2026-09-01T15:05:28.148Z",
+      "updated_at": "2026-09-01T15:05:28.148Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18654863813",
+      "txn_id": "ACT-604567658",
+      "id": "tx-xmh4z8lkw",
+      "created_at": "2026-09-01T15:05:03.231Z",
+      "updated_at": "2026-09-01T15:05:03.231Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 12193294630",
+      "txn_id": "AUTO-REF-604488786",
+      "id": "tx-kstast1n2",
+      "created_at": "2026-09-01T15:04:54.847Z",
+      "updated_at": "2026-09-01T15:04:54.847Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 12193294630",
+      "txn_id": "AUTO-REF-604488786",
+      "id": "tx-3nna7ge5y",
+      "created_at": "2026-09-01T15:04:54.533Z",
+      "updated_at": "2026-09-01T15:04:54.533Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 18154170713",
+      "txn_id": "AUTO-REF-604489284",
+      "id": "tx-ap6idrfhr",
+      "created_at": "2026-09-01T15:04:54.171Z",
+      "updated_at": "2026-09-01T15:04:54.171Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 18153901174",
+      "txn_id": "AUTO-REF-604489663",
+      "id": "tx-mq1we2gmv",
+      "created_at": "2026-09-01T15:04:53.808Z",
+      "updated_at": "2026-09-01T15:04:53.808Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 18153649188",
+      "txn_id": "AUTO-REF-604490046",
+      "id": "tx-97csopnob",
+      "created_at": "2026-09-01T15:04:53.336Z",
+      "updated_at": "2026-09-01T15:04:53.336Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 18058722737",
+      "txn_id": "AUTO-REF-604496442",
+      "id": "tx-m1t5rqr77",
+      "created_at": "2026-09-01T15:04:52.980Z",
+      "updated_at": "2026-09-01T15:04:52.980Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 19302779738",
+      "txn_id": "AUTO-REF-604525719",
+      "id": "tx-otf8m7fey",
+      "created_at": "2026-09-01T15:04:52.613Z",
+      "updated_at": "2026-09-01T15:04:52.613Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 12164658202",
+      "txn_id": "ACT-604531163",
+      "id": "tx-9p1s02vtc",
+      "created_at": "2026-09-01T14:46:46.643Z",
+      "updated_at": "2026-09-01T14:46:46.643Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19302779738",
+      "txn_id": "ACT-604525719",
+      "id": "tx-y0ibgym7v",
+      "created_at": "2026-09-01T14:44:04.691Z",
+      "updated_at": "2026-09-01T14:44:04.691Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 15674425068",
+      "txn_id": "ACT-604519029",
+      "id": "tx-hxfh0xyjc",
+      "created_at": "2026-09-01T14:40:32.019Z",
+      "updated_at": "2026-09-01T14:40:32.019Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 17178286372",
+      "txn_id": "ACT-604516502",
+      "id": "tx-7repgo0zs",
+      "created_at": "2026-09-01T14:39:10.444Z",
+      "updated_at": "2026-09-01T14:39:10.444Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 17244129109",
+      "txn_id": "ACT-604514469",
+      "id": "tx-arkllthlz",
+      "created_at": "2026-09-01T14:38:05.965Z",
+      "updated_at": "2026-09-01T14:38:05.965Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 16283994462",
+      "txn_id": "ACT-604509589",
+      "id": "tx-peocer4zk",
+      "created_at": "2026-09-01T14:35:41.180Z",
+      "updated_at": "2026-09-01T14:35:41.180Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 14245619955",
+      "txn_id": "ACT-604497758",
+      "id": "tx-27rbpv127",
+      "created_at": "2026-09-01T14:29:54.277Z",
+      "updated_at": "2026-09-01T14:29:54.277Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 9.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 16619972581",
+      "txn_id": "ACT-604496896",
+      "id": "tx-3vt4bgfty",
+      "created_at": "2026-09-01T14:29:31.464Z",
+      "updated_at": "2026-09-01T14:29:31.464Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18058722737",
+      "txn_id": "ACT-604496442",
+      "id": "tx-u57arp1xo",
+      "created_at": "2026-09-01T14:29:16.488Z",
+      "updated_at": "2026-09-01T14:29:16.488Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18153649188",
+      "txn_id": "ACT-604490046",
+      "id": "tx-0hk1st5vv",
+      "created_at": "2026-09-01T14:26:06.541Z",
+      "updated_at": "2026-09-01T14:26:06.541Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18153901174",
+      "txn_id": "ACT-604489663",
+      "id": "tx-xz0qa697m",
+      "created_at": "2026-09-01T14:25:54.779Z",
+      "updated_at": "2026-09-01T14:25:54.779Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18154170713",
+      "txn_id": "ACT-604489284",
+      "id": "tx-gz5iyu07i",
+      "created_at": "2026-09-01T14:25:43.584Z",
+      "updated_at": "2026-09-01T14:25:43.584Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12193294630",
+      "txn_id": "ACT-604488786",
+      "id": "tx-3o199msfw",
+      "created_at": "2026-09-01T14:25:29.816Z",
+      "updated_at": "2026-09-01T14:25:29.816Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 16402737417",
+      "txn_id": "AUTO-REF-604314788",
+      "id": "tx-q75kn4yi6",
+      "created_at": "2026-09-01T14:25:24.507Z",
+      "updated_at": "2026-09-01T14:25:24.507Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 15726000034",
+      "txn_id": "AUTO-REF-604315204",
+      "id": "tx-f1x5n54xm",
+      "created_at": "2026-09-01T14:25:24.017Z",
+      "updated_at": "2026-09-01T14:25:24.017Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 12796885238",
+      "txn_id": "AUTO-REF-604315653",
+      "id": "tx-oeuwubivc",
+      "created_at": "2026-09-01T14:25:23.565Z",
+      "updated_at": "2026-09-01T14:25:23.565Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12796885238",
+      "txn_id": "ACT-604315653",
+      "id": "tx-3v1hwl2as",
+      "created_at": "2026-09-01T12:55:49.209Z",
+      "updated_at": "2026-09-01T12:55:49.209Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 15726000034",
+      "txn_id": "ACT-604315204",
+      "id": "tx-vhlaxbl1u",
+      "created_at": "2026-09-01T12:55:34.989Z",
+      "updated_at": "2026-09-01T12:55:34.989Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 16402737417",
+      "txn_id": "ACT-604314788",
+      "id": "tx-vw9xheoyc",
+      "created_at": "2026-09-01T12:55:22.715Z",
+      "updated_at": "2026-09-01T12:55:22.715Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 16864651944",
+      "txn_id": "REF-C-604314103",
+      "id": "tx-u4e90ejr9",
+      "created_at": "2026-09-01T12:55:19.638Z",
+      "updated_at": "2026-09-01T12:55:19.638Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 16864651944",
+      "txn_id": "ACT-604314103",
+      "id": "tx-whdg0q9fd",
+      "created_at": "2026-09-01T12:55:02.710Z",
+      "updated_at": "2026-09-01T12:55:02.710Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19793638075",
+      "txn_id": "ACT-602209174",
+      "id": "tx-x6t7sal94",
+      "created_at": "2026-08-31T16:10:41.636Z",
+      "updated_at": "2026-08-31T16:10:41.636Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19718128424",
+      "txn_id": "ACT-602206142",
+      "id": "tx-6813piwhs",
+      "created_at": "2026-08-31T16:09:18.440Z",
+      "updated_at": "2026-08-31T16:09:18.440Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19517215186",
+      "txn_id": "ACT-602201319",
+      "id": "tx-96ul6xah8",
+      "created_at": "2026-08-31T16:07:14.048Z",
+      "updated_at": "2026-08-31T16:07:14.048Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 13868334992",
+      "txn_id": "ACT-602198927",
+      "id": "tx-o6qoh8w6x",
+      "created_at": "2026-08-31T16:06:06.971Z",
+      "updated_at": "2026-08-31T16:06:06.971Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 19416217301",
+      "txn_id": "REF-C-602192708",
+      "id": "tx-31c9am24k",
+      "created_at": "2026-08-31T16:04:42.200Z",
+      "updated_at": "2026-08-31T16:04:42.200Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19478888280",
+      "txn_id": "ACT-602195532",
+      "id": "tx-7ezx5flqx",
+      "created_at": "2026-08-31T16:04:38.783Z",
+      "updated_at": "2026-08-31T16:04:38.783Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19416217301",
+      "txn_id": "ACT-602192708",
+      "id": "tx-0c9vbr9dg",
+      "created_at": "2026-08-31T16:03:25.581Z",
+      "updated_at": "2026-08-31T16:03:25.581Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19318699914",
+      "txn_id": "ACT-602188459",
+      "id": "tx-sivh84isf",
+      "created_at": "2026-08-31T16:01:36.926Z",
+      "updated_at": "2026-08-31T16:01:36.926Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 13692400228",
+      "txn_id": "ACT-602184980",
+      "id": "tx-aleibmdnr",
+      "created_at": "2026-08-31T16:00:05.140Z",
+      "updated_at": "2026-08-31T16:00:05.140Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 15393064188",
+      "txn_id": "ACT-602080001",
+      "id": "tx-9ouy6jpjc",
+      "created_at": "2026-08-31T15:14:30.182Z",
+      "updated_at": "2026-08-31T15:14:30.182Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18108887737",
+      "txn_id": "REF-C-602043477",
+      "id": "tx-1e0ej0qb3",
+      "created_at": "2026-08-31T15:06:26.912Z",
+      "updated_at": "2026-08-31T15:06:26.912Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18158878908",
+      "txn_id": "ACT-602051353",
+      "id": "tx-2rr57q896",
+      "created_at": "2026-08-31T15:02:24.676Z",
+      "updated_at": "2026-08-31T15:02:24.676Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18108887737",
+      "txn_id": "ACT-602043477",
+      "id": "tx-fxcofemkq",
+      "created_at": "2026-08-31T14:58:52.220Z",
+      "updated_at": "2026-08-31T14:58:52.220Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 13094254769",
+      "txn_id": "ACT-601967169",
+      "id": "tx-52zz30jcr",
+      "created_at": "2026-08-31T14:17:37.863Z",
+      "updated_at": "2026-08-31T14:17:37.863Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 18402821713",
+      "txn_id": "AUTO-REF-601572088",
+      "id": "tx-7zd7qkvcp",
+      "created_at": "2026-08-31T14:17:32.892Z",
+      "updated_at": "2026-08-31T14:17:32.892Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 12409807596",
+      "txn_id": "AUTO-REF-601581318",
+      "id": "tx-3jdu360no",
+      "created_at": "2026-08-31T14:17:32.528Z",
+      "updated_at": "2026-08-31T14:17:32.528Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12409807596",
+      "txn_id": "ACT-601581318",
+      "id": "tx-3zb2v3uay",
+      "created_at": "2026-08-31T11:01:24.408Z",
+      "updated_at": "2026-08-31T11:01:24.408Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18402821713",
+      "txn_id": "ACT-601572088",
+      "id": "tx-r8d0jn5gg",
+      "created_at": "2026-08-31T10:56:32.998Z",
+      "updated_at": "2026-08-31T10:56:32.998Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 14406920915",
+      "txn_id": "ACT-600042803",
+      "id": "tx-09k34fner",
+      "created_at": "2026-08-30T18:37:48.299Z",
+      "updated_at": "2026-08-30T18:37:48.299Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 17173139801",
+      "txn_id": "ACT-600037144",
+      "id": "tx-zv46m0s3w",
+      "created_at": "2026-08-30T18:33:22.908Z",
+      "updated_at": "2026-08-30T18:33:22.908Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 16802679881",
+      "txn_id": "REF-C-600024405",
+      "id": "tx-gxbdozq0g",
+      "created_at": "2026-08-30T18:30:02.537Z",
+      "updated_at": "2026-08-30T18:30:02.537Z"
+    },
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 16802679881",
+      "txn_id": "ACT-600024405",
+      "id": "tx-ugu52bbnt",
+      "created_at": "2026-08-30T18:24:26.988Z",
+      "updated_at": "2026-08-30T18:24:26.988Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 12254516284",
+      "txn_id": "AUTO-REF-599372879",
+      "id": "tx-ux926rsmd",
+      "created_at": "2026-08-30T12:10:15.209Z",
+      "updated_at": "2026-08-30T12:10:15.209Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 16892682383",
+      "txn_id": "AUTO-REF-599384251",
+      "id": "tx-yz8uz9hgf",
+      "created_at": "2026-08-30T12:10:14.746Z",
+      "updated_at": "2026-08-30T12:10:14.746Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 12254516284",
+      "txn_id": "AUTO-REF-599372879",
+      "id": "tx-9syxyk8xh",
+      "created_at": "2026-08-30T12:10:14.675Z",
+      "updated_at": "2026-08-30T12:10:14.675Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 16892682383",
+      "txn_id": "AUTO-REF-599384251",
+      "id": "tx-s89vfl6ax",
+      "created_at": "2026-08-30T12:10:14.330Z",
+      "updated_at": "2026-08-30T12:10:14.330Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 16892682383",
+      "txn_id": "ACT-599384251",
+      "id": "tx-vnujvrhww",
+      "created_at": "2026-08-30T11:47:59.700Z",
+      "updated_at": "2026-08-30T11:47:59.700Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 15416588587",
+      "txn_id": "REF-C-599378676",
+      "id": "tx-36x1zdure",
+      "created_at": "2026-08-30T11:47:22.470Z",
+      "updated_at": "2026-08-30T11:47:22.470Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 15416588587",
+      "txn_id": "REF-C-599378676",
+      "id": "tx-k9p7kpnaq",
+      "created_at": "2026-08-30T11:47:19.784Z",
+      "updated_at": "2026-08-30T11:47:19.784Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19869467354",
+      "txn_id": "ACT-599380122",
+      "id": "tx-808pbnu62",
+      "created_at": "2026-08-30T11:45:36.081Z",
+      "updated_at": "2026-08-30T11:45:36.081Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 15416588587",
+      "txn_id": "ACT-599378676",
+      "id": "tx-utvykc3w9",
+      "created_at": "2026-08-30T11:44:40.139Z",
+      "updated_at": "2026-08-30T11:44:40.139Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12254516284",
+      "txn_id": "ACT-599372879",
+      "id": "tx-pzdmsvyjn",
+      "created_at": "2026-08-30T11:41:29.994Z",
+      "updated_at": "2026-08-30T11:41:29.994Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 12255295184",
+      "txn_id": "REF-C-599372477",
+      "id": "tx-tol7k2su6",
+      "created_at": "2026-08-30T11:41:27.750Z",
+      "updated_at": "2026-08-30T11:41:27.750Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 12255295184",
+      "txn_id": "REF-C-599372477",
+      "id": "tx-h9qwvrcwo",
+      "created_at": "2026-08-30T11:41:26.997Z",
+      "updated_at": "2026-08-30T11:41:26.997Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12255295184",
+      "txn_id": "ACT-599372477",
+      "id": "tx-7k54w9ubc",
+      "created_at": "2026-08-30T11:41:14.636Z",
+      "updated_at": "2026-08-30T11:41:14.636Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 15598447261",
+      "txn_id": "REF-C-599370838",
+      "id": "tx-q6pvr4o2v",
+      "created_at": "2026-08-30T11:41:07.627Z",
+      "updated_at": "2026-08-30T11:41:07.627Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 15598447261",
+      "txn_id": "ACT-599370838",
+      "id": "tx-u407ddx6c",
+      "created_at": "2026-08-30T11:40:19.538Z",
+      "updated_at": "2026-08-30T11:40:19.538Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 19379826236",
+      "txn_id": "AUTO-REF-599270611",
+      "id": "tx-dgvf0spcc",
+      "created_at": "2026-08-30T11:39:37.890Z",
+      "updated_at": "2026-08-30T11:39:37.890Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19183010854",
+      "txn_id": "ACT-599293133",
+      "id": "tx-i7fps44vh",
+      "created_at": "2026-08-30T10:49:58.929Z",
+      "updated_at": "2026-08-30T10:49:58.929Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 17603647680",
+      "txn_id": "ACT-599286852",
+      "id": "tx-yz5xha7bj",
+      "created_at": "2026-08-30T10:46:05.817Z",
+      "updated_at": "2026-08-30T10:46:05.817Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19309004727",
+      "txn_id": "ACT-599279118",
+      "id": "tx-maaenuiz9",
+      "created_at": "2026-08-30T10:40:49.759Z",
+      "updated_at": "2026-08-30T10:40:49.759Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19363855789",
+      "txn_id": "ACT-599274475",
+      "id": "tx-wmwjlg5i2",
+      "created_at": "2026-08-30T10:37:38.982Z",
+      "updated_at": "2026-08-30T10:37:38.982Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19379826236",
+      "txn_id": "ACT-599270611",
+      "id": "tx-f17eybpps",
+      "created_at": "2026-08-30T10:35:01.742Z",
+      "updated_at": "2026-08-30T10:35:01.742Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 17604542921",
+      "txn_id": "ACT-599267433",
+      "id": "tx-5qehc2pie",
+      "created_at": "2026-08-30T10:32:50.498Z",
+      "updated_at": "2026-08-30T10:32:50.498Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19478888749",
+      "txn_id": "ACT-599261019",
+      "id": "tx-qjqooe9hh",
+      "created_at": "2026-08-30T10:28:47.189Z",
+      "updated_at": "2026-08-30T10:28:47.189Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19482332303",
+      "txn_id": "ACT-599260075",
+      "id": "tx-rtbyd8mr0",
+      "created_at": "2026-08-30T10:28:10.245Z",
+      "updated_at": "2026-08-30T10:28:10.245Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19519101577",
+      "txn_id": "ACT-599252581",
+      "id": "tx-jug3gpfb5",
+      "created_at": "2026-08-30T10:23:14.475Z",
+      "updated_at": "2026-08-30T10:23:14.475Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 8.6,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19519521557",
+      "txn_id": "ACT-599250951",
+      "id": "tx-0ctoqixme",
+      "created_at": "2026-08-30T10:22:06.967Z",
+      "updated_at": "2026-08-30T10:22:06.967Z"
+    },
+    {
+      "user_id": "u-d42e10ed",
+      "amount": 330,
+      "type": "credit",
+      "description": "Admin Adjustment",
+      "txn_id": "ADJ-439F15",
+      "id": "tx-i288pmqzu",
+      "created_at": "2026-08-30T10:21:09.387Z",
+      "updated_at": "2026-08-30T10:21:09.387Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 19715016808",
+      "txn_id": "ACT-599242924",
+      "id": "tx-sx2huuzvz",
+      "created_at": "2026-08-30T10:16:53.155Z",
+      "updated_at": "2026-08-30T10:16:53.155Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 12086943242",
+      "txn_id": "ACT-599234581",
+      "id": "tx-2nt5m0bzy",
+      "created_at": "2026-08-30T10:11:20.557Z",
+      "updated_at": "2026-08-30T10:11:20.557Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 17078991719",
+      "txn_id": "AUTO-REF-599190498",
+      "id": "tx-tgq2qunbs",
+      "created_at": "2026-08-30T10:10:37.383Z",
+      "updated_at": "2026-08-30T10:10:37.383Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 17078991719",
+      "txn_id": "ACT-599190498",
+      "id": "tx-m4mdvxisy",
+      "created_at": "2026-08-30T09:42:42.254Z",
+      "updated_at": "2026-08-30T09:42:42.254Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 15598263986",
+      "txn_id": "AUTO-REF-599118201",
+      "id": "tx-zur6078xp",
+      "created_at": "2026-08-30T09:19:15.232Z",
+      "updated_at": "2026-08-30T09:19:15.232Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "credit",
+      "description": "Auto-refund (Expired >20 min) for number: 15598263986",
+      "txn_id": "AUTO-REF-599118201",
+      "id": "tx-aenwoqcer",
+      "created_at": "2026-08-30T09:19:15.203Z",
+      "updated_at": "2026-08-30T09:19:15.203Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 15598263986",
+      "txn_id": "ACT-599118201",
+      "id": "tx-3knfcay4i",
+      "created_at": "2026-08-30T08:58:32.016Z",
+      "updated_at": "2026-08-30T08:58:32.016Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "credit",
+      "description": "Refund (Client Cancelled) for virtual number: 18046960738",
+      "txn_id": "REF-C-599100261",
+      "id": "tx-3inxcia3m",
+      "created_at": "2026-08-30T08:52:17.903Z",
+      "updated_at": "2026-08-30T08:52:17.903Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 14,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA): 18046960738",
+      "txn_id": "ACT-599100261",
+      "id": "tx-02q0is78q",
+      "created_at": "2026-08-30T08:47:47.052Z",
+      "updated_at": "2026-08-30T08:47:47.052Z"
+    },
+    {
+      "user_id": "u-0c55b0c9",
+      "amount": 50000,
+      "type": "credit",
+      "description": "Admin Adjustment",
+      "txn_id": "ADJ-836653",
+      "id": "tx-isgru0tzm",
+      "created_at": "2026-08-30T08:46:51.063Z",
+      "updated_at": "2026-08-30T08:46:51.063Z"
+    },
     {
       "user_id": "u-7b9cfef3",
       "amount": 32,
@@ -188,6 +1410,1153 @@
     {
       "service": "fb",
       "service_name": "Facebook",
+      "activation_id": "604954098",
+      "phone_number": "16074600542",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "546bece610f2",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-pyjag1jlo",
+      "created_at": "2026-09-01T18:22:37.935Z",
+      "updated_at": "2026-09-01T18:26:40.327Z",
+      "otp_code": "62218",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604679596",
+      "phone_number": "16318027953",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "d2ed84ed4b99",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-kwtyuabvr",
+      "created_at": "2026-09-01T16:03:06.224Z",
+      "updated_at": "2026-09-01T16:03:48.098Z",
+      "otp_code": "28236",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604673511",
+      "phone_number": "14423719306",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "3e797522ba56",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-d8fgqctbp",
+      "created_at": "2026-09-01T16:00:06.645Z",
+      "updated_at": "2026-09-01T16:01:07.996Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604673088",
+      "phone_number": "13504446207",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "7fb27ab8150f",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-dvjhgnbaq",
+      "created_at": "2026-09-01T15:59:51.635Z",
+      "updated_at": "2026-09-01T16:00:06.100Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604667974",
+      "phone_number": "15855799074",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "75420635e878",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-ry5m3kxzu",
+      "created_at": "2026-09-01T15:57:15.730Z",
+      "updated_at": "2026-09-01T15:59:45.834Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604594073",
+      "phone_number": "18544588965",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "4497e0a719ce",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-h52es6yej",
+      "created_at": "2026-09-01T15:18:58.237Z",
+      "updated_at": "2026-09-01T15:24:24.950Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604589527",
+      "phone_number": "19378884492",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "0f240c6eb996",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-01xr87oge",
+      "created_at": "2026-09-01T15:16:35.092Z",
+      "updated_at": "2026-09-01T15:17:25.139Z",
+      "otp_code": "45801",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604577210",
+      "phone_number": "16187507404",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "3719455683b2",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-n8asi3ccg",
+      "created_at": "2026-09-01T15:09:58.553Z",
+      "updated_at": "2026-09-01T15:10:36.290Z",
+      "otp_code": "13384",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604576834",
+      "phone_number": "13616054375",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "6e136016d4e3",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-995hnj60v",
+      "created_at": "2026-09-01T15:09:47.169Z",
+      "updated_at": "2026-09-01T15:09:59.404Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604576493",
+      "phone_number": "13374539972",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "3d8b87fadc9f",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-sw4dnz1lg",
+      "created_at": "2026-09-01T15:09:37.572Z",
+      "updated_at": "2026-09-01T15:09:47.060Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604568475",
+      "phone_number": "19147502329",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "0a3a405a62b8",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-abv9pv3tc",
+      "created_at": "2026-09-01T15:05:28.146Z",
+      "updated_at": "2026-09-01T15:07:04.237Z",
+      "otp_code": "88018",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604567658",
+      "phone_number": "18654863813",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "64ba0040521a",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-80wr0jmpw",
+      "created_at": "2026-09-01T15:05:03.229Z",
+      "updated_at": "2026-09-01T15:56:09.196Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604531163",
+      "phone_number": "12164658202",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "03aea2381f96",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-w23cn2vur",
+      "created_at": "2026-09-01T14:46:46.642Z",
+      "updated_at": "2026-09-01T14:50:12.240Z",
+      "otp_code": "45881",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604525719",
+      "phone_number": "19302779738",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "0de017420d6b",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-b17c3ssg9",
+      "created_at": "2026-09-01T14:44:04.689Z",
+      "updated_at": "2026-09-01T15:04:52.615Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604519029",
+      "phone_number": "15674425068",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "62e447a5c170",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-vhqbdshvh",
+      "created_at": "2026-09-01T14:40:32.018Z",
+      "updated_at": "2026-09-01T14:41:40.774Z",
+      "otp_code": "19425",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604516502",
+      "phone_number": "17178286372",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "ed531dddcf63",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-7f9pctkd1",
+      "created_at": "2026-09-01T14:39:10.442Z",
+      "updated_at": "2026-09-01T14:40:01.651Z",
+      "otp_code": "05566",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604514469",
+      "phone_number": "17244129109",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "fcdbabf6398d",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-gto3aqb8h",
+      "created_at": "2026-09-01T14:38:05.963Z",
+      "updated_at": "2026-09-01T14:38:42.538Z",
+      "otp_code": "94726",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604509589",
+      "phone_number": "16283994462",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "b361ccab0256",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-dr6168uz7",
+      "created_at": "2026-09-01T14:35:41.178Z",
+      "updated_at": "2026-09-01T14:36:30.046Z",
+      "otp_code": "66155",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604497758",
+      "phone_number": "14245619955",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "2c00a1676fc2",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-7by35zsmz",
+      "created_at": "2026-09-01T14:29:54.276Z",
+      "updated_at": "2026-09-01T14:31:10.610Z",
+      "otp_code": "70064",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604496896",
+      "phone_number": "16619972581",
+      "cost_usd": 0.032,
+      "selling_price": 9.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "6c241d7b17d6",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-h2fdqfool",
+      "created_at": "2026-09-01T14:29:31.463Z",
+      "updated_at": "2026-09-01T14:30:07.654Z",
+      "otp_code": "64706",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604496442",
+      "phone_number": "18058722737",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "c129a832b2ec",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-dlrgbdcb0",
+      "created_at": "2026-09-01T14:29:16.487Z",
+      "updated_at": "2026-09-01T15:04:52.981Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604490046",
+      "phone_number": "18153649188",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "044082ece0bc",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-d5ed1y5dm",
+      "created_at": "2026-09-01T14:26:06.539Z",
+      "updated_at": "2026-09-01T15:04:53.337Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604489663",
+      "phone_number": "18153901174",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "c4e7c96649cd",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-a70s4yz1u",
+      "created_at": "2026-09-01T14:25:54.777Z",
+      "updated_at": "2026-09-01T15:04:53.809Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604489284",
+      "phone_number": "18154170713",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "c273a6f1ad60",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-shnxw6bh4",
+      "created_at": "2026-09-01T14:25:43.582Z",
+      "updated_at": "2026-09-01T15:04:54.172Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604488786",
+      "phone_number": "12193294630",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "645329defd85",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-wadfv8niq",
+      "created_at": "2026-09-01T14:25:29.815Z",
+      "updated_at": "2026-09-01T15:04:54.848Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604315653",
+      "phone_number": "12796885238",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "0801c498a7f0",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-6fj15dz3m",
+      "created_at": "2026-09-01T12:55:49.207Z",
+      "updated_at": "2026-09-01T14:25:23.566Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604315204",
+      "phone_number": "15726000034",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "942577446949",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-a0ld0klbh",
+      "created_at": "2026-09-01T12:55:34.987Z",
+      "updated_at": "2026-09-01T14:25:24.019Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604314788",
+      "phone_number": "16402737417",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "c771d77cbdbb",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-ilqfsme4v",
+      "created_at": "2026-09-01T12:55:22.714Z",
+      "updated_at": "2026-09-01T14:25:24.508Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "604314103",
+      "phone_number": "16864651944",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "9197c27ee158",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-ef1wm4405",
+      "created_at": "2026-09-01T12:55:02.709Z",
+      "updated_at": "2026-09-01T12:55:19.640Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602209174",
+      "phone_number": "19793638075",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "47891056aea7",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-jbk41awq6",
+      "created_at": "2026-08-31T16:10:41.634Z",
+      "updated_at": "2026-08-31T16:11:05.081Z",
+      "otp_code": "69340",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602206142",
+      "phone_number": "19718128424",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "a3ddc5f6ba79",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-gd6nql1d3",
+      "created_at": "2026-08-31T16:09:18.439Z",
+      "updated_at": "2026-08-31T16:09:44.876Z",
+      "otp_code": "98671",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602201319",
+      "phone_number": "19517215186",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "ce9a19eaf9e2",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-sk9118sti",
+      "created_at": "2026-08-31T16:07:14.047Z",
+      "updated_at": "2026-08-31T16:07:43.570Z",
+      "otp_code": "92426",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602198927",
+      "phone_number": "13868334992",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "357b5bd041b0",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-c00jwqh5n",
+      "created_at": "2026-08-31T16:06:06.969Z",
+      "updated_at": "2026-08-31T16:06:26.629Z",
+      "otp_code": "22492",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602195532",
+      "phone_number": "19478888280",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "b0c2806184ec",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-wats7znsb",
+      "created_at": "2026-08-31T16:04:38.782Z",
+      "updated_at": "2026-08-31T16:05:10.644Z",
+      "otp_code": "48976",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602192708",
+      "phone_number": "19416217301",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "3819c7d6e3fb",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-02q3dr5wc",
+      "created_at": "2026-08-31T16:03:25.579Z",
+      "updated_at": "2026-08-31T16:04:42.201Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602188459",
+      "phone_number": "19318699914",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "5b4d40e51aaa",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-2gvk9y43p",
+      "created_at": "2026-08-31T16:01:36.925Z",
+      "updated_at": "2026-08-31T16:02:07.674Z",
+      "otp_code": "48580",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602184980",
+      "phone_number": "13692400228",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "098fc87cdcc4",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-13kyfuove",
+      "created_at": "2026-08-31T16:00:05.138Z",
+      "updated_at": "2026-08-31T16:00:28.121Z",
+      "otp_code": "61586",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602080001",
+      "phone_number": "15393064188",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "3c29fa38db73",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-a5e2ljebw",
+      "created_at": "2026-08-31T15:14:30.181Z",
+      "updated_at": "2026-08-31T15:18:29.552Z",
+      "otp_code": "88304",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602051353",
+      "phone_number": "18158878908",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "2e5f92e6857f",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-8u4a2wwlj",
+      "created_at": "2026-08-31T15:02:24.674Z",
+      "updated_at": "2026-08-31T15:06:24.003Z",
+      "otp_code": "93797",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "602043477",
+      "phone_number": "18108887737",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "9660dc70e819",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-suyyazt01",
+      "created_at": "2026-08-31T14:58:52.218Z",
+      "updated_at": "2026-08-31T15:06:26.913Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "601967169",
+      "phone_number": "13094254769",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "100ab106a202",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-o3opph4j8",
+      "created_at": "2026-08-31T14:17:37.861Z",
+      "updated_at": "2026-08-31T14:18:09.337Z",
+      "otp_code": "04051",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "601581318",
+      "phone_number": "12409807596",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "84e03a861867",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-sujkwpj0t",
+      "created_at": "2026-08-31T11:01:24.407Z",
+      "updated_at": "2026-08-31T14:17:32.529Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "601572088",
+      "phone_number": "18402821713",
+      "cost_usd": 0.026,
+      "selling_price": 10,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "f5d0f040a591",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-77mj2ipox",
+      "created_at": "2026-08-31T10:56:32.997Z",
+      "updated_at": "2026-08-31T14:17:32.893Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "600042803",
+      "phone_number": "14406920915",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "24591b77c489",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-7b9cfef3",
+      "id": "act-pjkg6hher",
+      "created_at": "2026-08-30T18:37:48.298Z",
+      "updated_at": "2026-08-30T18:39:21.720Z",
+      "otp_code": "76569",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "600037144",
+      "phone_number": "17173139801",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "cd21a4e3df35",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-7b9cfef3",
+      "id": "act-owlf8g137",
+      "created_at": "2026-08-30T18:33:22.906Z",
+      "updated_at": "2026-08-30T18:35:09.483Z",
+      "otp_code": "59483",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "600024405",
+      "phone_number": "16802679881",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "22902d294e6c",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-7b9cfef3",
+      "id": "act-zj42phdnz",
+      "created_at": "2026-08-30T18:24:26.987Z",
+      "updated_at": "2026-08-30T18:30:02.538Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599384251",
+      "phone_number": "16892682383",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "ea4c1c381b5c",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-rlhkhdzgo",
+      "created_at": "2026-08-30T11:47:59.699Z",
+      "updated_at": "2026-08-30T12:10:14.747Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599380122",
+      "phone_number": "19869467354",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "08d28fee47db",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-lqms0grl7",
+      "created_at": "2026-08-30T11:45:36.079Z",
+      "updated_at": "2026-08-30T11:47:12.220Z",
+      "otp_code": "60216",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599378676",
+      "phone_number": "15416588587",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "81fa49c769a2",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-os6j6ioov",
+      "created_at": "2026-08-30T11:44:40.138Z",
+      "updated_at": "2026-08-30T11:47:22.471Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599372879",
+      "phone_number": "12254516284",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "1f9cd39ecedd",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-uuohv4hvu",
+      "created_at": "2026-08-30T11:41:29.993Z",
+      "updated_at": "2026-08-30T12:10:15.210Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599372477",
+      "phone_number": "12255295184",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "625eb86b3fca",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-lal74u3d6",
+      "created_at": "2026-08-30T11:41:14.635Z",
+      "updated_at": "2026-08-30T11:41:27.751Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599370838",
+      "phone_number": "15598447261",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "609483d8300f",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-q1d8lateu",
+      "created_at": "2026-08-30T11:40:19.537Z",
+      "updated_at": "2026-08-30T11:41:07.628Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599293133",
+      "phone_number": "19183010854",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "ca2199ee833c",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-ih1cwleo8",
+      "created_at": "2026-08-30T10:49:58.928Z",
+      "updated_at": "2026-08-30T10:52:37.775Z",
+      "otp_code": "94629",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599286852",
+      "phone_number": "17603647680",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "5288d45660e6",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-2m08e8c67",
+      "created_at": "2026-08-30T10:46:05.816Z",
+      "updated_at": "2026-08-30T10:48:08.247Z",
+      "otp_code": "21423",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599279118",
+      "phone_number": "19309004727",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "a810c550d92e",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-oeznb5tmd",
+      "created_at": "2026-08-30T10:40:49.758Z",
+      "updated_at": "2026-08-30T10:42:24.404Z",
+      "otp_code": "74194",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599274475",
+      "phone_number": "19363855789",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "dd734adc52d9",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-ugjrk615m",
+      "created_at": "2026-08-30T10:37:38.981Z",
+      "updated_at": "2026-08-30T10:39:06.591Z",
+      "otp_code": "12906",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599270611",
+      "phone_number": "19379826236",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "4771ab4f9edf",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-hl4hhlawy",
+      "created_at": "2026-08-30T10:35:01.741Z",
+      "updated_at": "2026-08-30T11:39:37.891Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599267433",
+      "phone_number": "17604542921",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "3778f4dc1e78",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-xjsg9vrlz",
+      "created_at": "2026-08-30T10:32:50.497Z",
+      "updated_at": "2026-08-30T10:34:59.407Z",
+      "otp_code": "63540",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599261019",
+      "phone_number": "19478888749",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "506e2a71ce90",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-8ec7ed6ag",
+      "created_at": "2026-08-30T10:28:47.188Z",
+      "updated_at": "2026-08-30T10:31:12.080Z",
+      "otp_code": "34889",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599260075",
+      "phone_number": "19482332303",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "f212a25d0149",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-vibxhbckx",
+      "created_at": "2026-08-30T10:28:10.244Z",
+      "updated_at": "2026-08-30T10:30:08.097Z",
+      "otp_code": "23656",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599252581",
+      "phone_number": "19519101577",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "db584cbd3bc7",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-yi4l033au",
+      "created_at": "2026-08-30T10:23:14.474Z",
+      "updated_at": "2026-08-30T10:27:13.592Z",
+      "otp_code": "74351",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599250951",
+      "phone_number": "19519521557",
+      "cost_usd": 0.031,
+      "selling_price": 8.6,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "4d2c1180da68",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-d42e10ed",
+      "id": "act-d8hcwg8hf",
+      "created_at": "2026-08-30T10:22:06.967Z",
+      "updated_at": "2026-08-30T10:26:02.702Z",
+      "otp_code": "79130",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599242924",
+      "phone_number": "19715016808",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "eddc44bbf527",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-qxcvqb8e6",
+      "created_at": "2026-08-30T10:16:53.154Z",
+      "updated_at": "2026-08-30T10:18:26.138Z",
+      "otp_code": "84691",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599234581",
+      "phone_number": "12086943242",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "code_received",
+      "provider": "smsbower",
+      "token": "c35071c78b31",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-qk8uzikpa",
+      "created_at": "2026-08-30T10:11:20.556Z",
+      "updated_at": "2026-08-30T10:15:03.924Z",
+      "otp_code": "96820",
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599190498",
+      "phone_number": "17078991719",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "37e57f6d64d5",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-4j66mffz1",
+      "created_at": "2026-08-30T09:42:42.253Z",
+      "updated_at": "2026-08-30T10:10:37.384Z"
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599118201",
+      "phone_number": "15598263986",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "d2f2ec6a858e",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-0ovbqfetn",
+      "created_at": "2026-08-30T08:58:32.015Z",
+      "updated_at": "2026-08-30T09:19:15.233Z",
+      "otp_code": null,
+      "otp_received": true
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "599100261",
+      "phone_number": "18046960738",
+      "cost_usd": 0.031,
+      "selling_price": 14,
+      "status": "cancelled",
+      "provider": "smsbower",
+      "token": "61865c84a2ee",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-0c55b0c9",
+      "id": "act-47a30xkfs",
+      "created_at": "2026-08-30T08:47:47.051Z",
+      "updated_at": "2026-08-30T08:52:17.903Z",
+      "otp_code": null
+    },
+    {
+      "service": "fb",
+      "service_name": "Facebook",
       "activation_id": "597790629",
       "phone_number": "17624204388",
       "cost_usd": 0.031,
@@ -283,6 +2652,42 @@
   ],
   "depositRequests": [
     {
+      "user_id": "u-c029be12",
+      "amount": 100,
+      "method": "Jazzcash",
+      "txn_id": "03001116338",
+      "screenshot_url": "",
+      "status": "pending",
+      "created_by_id": "u-c029be12",
+      "id": "dep-1vci88bhx",
+      "created_at": "2026-09-01T07:09:09.345Z",
+      "updated_at": "2026-09-01T07:09:09.345Z"
+    },
+    {
+      "user_id": "u-c029be12",
+      "amount": 100,
+      "method": "Jazzcash",
+      "txn_id": "03001116338",
+      "screenshot_url": "",
+      "status": "pending",
+      "created_by_id": "u-c029be12",
+      "id": "dep-blz8t70rg",
+      "created_at": "2026-09-01T07:07:16.087Z",
+      "updated_at": "2026-09-01T07:07:16.087Z"
+    },
+    {
+      "user_id": "u-c029be12",
+      "amount": 100,
+      "method": "Jazzcash",
+      "txn_id": "03081290490",
+      "screenshot_url": "",
+      "status": "pending",
+      "created_by_id": "u-c029be12",
+      "id": "dep-3lj65jvs2",
+      "created_at": "2026-08-30T19:05:40.587Z",
+      "updated_at": "2026-08-30T19:05:40.587Z"
+    },
+    {
       "user_id": "u-0015826b",
       "amount": 500,
       "method": "EasyPaisa",
@@ -317,375 +2722,1725 @@
     {
       "id": "s-1",
       "key": "countries",
-      "value": "[\n  {\n    \"name\": \"USA\",\n    \"provider\": \"smsbower\",\n    \"countryId\": 12,\n    \"maxPrice\": 0.031,\n    \"sell\": 14\n  }\n]",
+      "value": "[\n  {\n    \"name\": \"USA\",\n    \"provider\": \"smsbower\",\n    \"countryId\": 12,\n    \"maxPrice\": 0.026,\n    \"sell\": 10,\n    \"providerId\": 3410\n  },\n  {\n    \"name\": \"USA 2\",\n    \"provider\": \"smsbower\",\n    \"countryId\": 12,\n    \"maxPrice\": 0.034,\n    \"sell\": 10,\n    \"providerId\": 3160\n  }\n]",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.771Z"
+      "updated_at": "2026-09-01T15:56:55.902Z"
     },
     {
       "id": "s-2",
       "key": "public_otp_url",
       "value": "",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.771Z"
+      "updated_at": "2026-09-01T15:56:55.903Z"
     },
     {
       "id": "s-3",
       "key": "short_link_prefix",
-      "value": "",
+      "value": "fb",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.771Z"
+      "updated_at": "2026-09-01T15:56:55.904Z"
     },
     {
       "id": "s-4",
       "key": "gmail_price",
       "value": "15",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.772Z"
+      "updated_at": "2026-09-01T15:56:55.906Z"
     },
     {
       "id": "s-5",
       "key": "gmail_mail_price",
       "value": "20",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.772Z"
+      "updated_at": "2026-09-01T15:56:55.907Z"
     },
     {
       "id": "s-6",
       "key": "gmail_mail_max_price",
       "value": "0.05",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.772Z"
+      "updated_at": "2026-09-01T15:56:55.908Z"
     },
     {
       "id": "s-7",
       "key": "deposit_methods",
-      "value": "[]",
+      "value": "[\n  {\n    \"name\": \"Jazzcash\",\n    \"instructions\": \"​• Recipient Account: 03093601043\\n​• Status: Pending Admin Verification\\n\\n​Notice: Please transfer the payment to the number above and submit your payment receipt/transaction ID. The admin team will review and approve your transaction as soon as possible\"\n  }\n]",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.772Z"
+      "updated_at": "2026-09-01T15:56:55.915Z"
     },
     {
       "id": "s-8",
       "key": "contact_info",
       "value": "{}",
       "created_at": "2026-08-29T19:14:44.206Z",
-      "updated_at": "2026-08-29T19:59:54.772Z"
+      "updated_at": "2026-09-01T15:56:55.917Z"
     },
     {
       "id": "s-s1jnj4r9f",
       "key": "otp_api_key",
       "value": "yu5BsIwXebcjYInuoaYDGojVW1ayPOFv",
       "created_at": "2026-08-29T19:44:19.569Z",
-      "updated_at": "2026-08-29T19:54:56.837Z"
+      "updated_at": "2026-09-01T15:56:55.919Z"
     },
     {
       "id": "s-xynseki1s",
       "key": "vsimpro_api_key",
       "value": "ac4e4fe30b0c48c008da78cdab113fb913cd",
       "created_at": "2026-08-29T19:44:19.569Z",
-      "updated_at": "2026-08-29T19:59:54.772Z"
+      "updated_at": "2026-09-01T15:56:55.920Z"
     },
     {
       "id": "s-xdqbz5k9v",
       "key": "smsbower_base_url",
       "value": "https://smsbower.online",
       "created_at": "2026-08-29T19:44:19.570Z",
-      "updated_at": "2026-08-29T19:54:56.838Z"
+      "updated_at": "2026-09-01T15:56:55.922Z"
+    },
+    {
+      "id": "s-w2dl0qhp4",
+      "key": "mail_service_code",
+      "value": "fb",
+      "created_at": "2026-08-30T07:59:12.072Z",
+      "updated_at": "2026-09-01T15:56:55.910Z"
+    },
+    {
+      "id": "s-fs3srdgkr",
+      "key": "mail_domain",
+      "value": "gmail.com",
+      "created_at": "2026-08-30T07:59:12.072Z",
+      "updated_at": "2026-09-01T15:56:55.911Z"
+    },
+    {
+      "id": "s-5f0a6rtzq",
+      "key": "mail_ref",
+      "value": "",
+      "created_at": "2026-08-30T07:59:12.072Z",
+      "updated_at": "2026-09-01T15:56:55.912Z"
+    },
+    {
+      "id": "s-lofiqkolh",
+      "key": "mail_alias",
+      "value": "",
+      "created_at": "2026-08-30T07:59:12.073Z",
+      "updated_at": "2026-09-01T15:56:55.914Z"
     }
   ],
   "logs": [
     {
-      "id": "log-yi1m8745n",
+      "id": "log-e7quvua2n",
+      "action": "USER_REGISTER",
+      "details": "Registered new user demo123@test.com (automatically verified).",
+      "user_id": "u-e245cfa3",
+      "user_email": "demo123@test.com",
+      "timestamp": "2026-09-01T23:19:20.379Z"
+    },
+    {
+      "id": "log-h41yhkb4l",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16074600542: 62218",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T18:26:40.329Z"
+    },
+    {
+      "id": "log-1g4ph81y2",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16074600542: 62218",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T18:26:31.296Z"
+    },
+    {
+      "id": "log-lhw86s941",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16074600542 for 10 PKR (ID: 604954098)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T18:22:37.939Z"
+    },
+    {
+      "id": "log-f11oooi0d",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadalinaich67@gmail.com",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T18:22:11.750Z"
+    },
+    {
+      "id": "log-8xd6hrqnq",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16318027953: 28236",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T16:03:48.100Z"
+    },
+    {
+      "id": "log-5vl4orc7s",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16318027953: 28236",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T16:03:42.763Z"
+    },
+    {
+      "id": "log-mp87ifvh9",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16318027953 for 10 PKR (ID: 604679596)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T16:03:06.227Z"
+    },
+    {
+      "id": "log-sxxa09ifk",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 14423719306. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T16:01:07.997Z"
+    },
+    {
+      "id": "log-fk2izuliq",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 14423719306 for 10 PKR (ID: 604673511)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T16:00:06.649Z"
+    },
+    {
+      "id": "log-ujnwus93o",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 13504446207. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T16:00:06.103Z"
+    },
+    {
+      "id": "log-zhfr7uzm2",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 13504446207 for 10 PKR (ID: 604673088)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:59:51.638Z"
+    },
+    {
+      "id": "log-v3rb3o99t",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 15855799074. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:59:45.836Z"
+    },
+    {
+      "id": "log-mt9pqrs1v",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 15855799074 for 10 PKR (ID: 604667974)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:57:15.733Z"
+    },
+    {
+      "id": "log-kkuf7yg8d",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadalinaich67@gmail.com",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:57:04.362Z"
+    },
+    {
+      "id": "log-jdfgwq6d4",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:56:55.923Z"
+    },
+    {
+      "id": "log-kp947sdpd",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:56:52.482Z"
+    },
+    {
+      "id": "log-bnvyy73jl",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:56:38.078Z"
+    },
+    {
+      "id": "log-jkf2h5ngs",
       "action": "USER_LOGIN",
       "details": "Logged in fahadkhannaich00@gmail.com",
       "user_id": "admin-1",
       "user_email": "fahadkhannaich00@gmail.com",
-      "timestamp": "2026-08-29T20:27:38.829Z"
+      "timestamp": "2026-09-01T15:56:24.588Z"
     },
     {
-      "id": "log-ygkma9l3s",
-      "action": "FB_IDS_PURCHASE",
-      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "id": "log-5vkhap3zv",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 18654863813 (ID: 604567658)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:56:09.197Z"
+    },
+    {
+      "id": "log-q6ldfdi6s",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 18544588965. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:24:24.952Z"
+    },
+    {
+      "id": "log-gemfqcf2x",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 18544588965. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:24:24.755Z"
+    },
+    {
+      "id": "log-69ztmy3uf",
+      "action": "OTP_REFUND",
+      "details": "Provider cancelled number 18544588965. Wallet refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:24:24.473Z"
+    },
+    {
+      "id": "log-1l2so0m64",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 18544588965. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:24:24.280Z"
+    },
+    {
+      "id": "log-0ktz53fpp",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 18544588965. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:24:24.109Z"
+    },
+    {
+      "id": "log-c4glccz8f",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 18544588965. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:24:23.957Z"
+    },
+    {
+      "id": "log-cqoz2f8ss",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18544588965 for 9.6 PKR (ID: 604594073)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T15:18:58.239Z"
+    },
+    {
+      "id": "log-rru7x1t64",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19378884492: 45801",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:17:25.141Z"
+    },
+    {
+      "id": "log-nynlltuoq",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19378884492: 45801",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:17:24.100Z"
+    },
+    {
+      "id": "log-fs35xnes2",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19378884492: 45801",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:17:22.285Z"
+    },
+    {
+      "id": "log-wzuwpbiiw",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19378884492: 45801",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:17:20.245Z"
+    },
+    {
+      "id": "log-4u0xdvh0z",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19378884492 for 9.6 PKR (ID: 604589527)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T15:16:35.095Z"
+    },
+    {
+      "id": "log-2z1skb75x",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16187507404: 13384",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:10:36.292Z"
+    },
+    {
+      "id": "log-xq7ocg3ly",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16187507404: 13384",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:10:29.915Z"
+    },
+    {
+      "id": "log-kv0k4iubp",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 13616054375. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:09:59.405Z"
+    },
+    {
+      "id": "log-6bof6d203",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16187507404 for 10 PKR (ID: 604577210)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:09:58.556Z"
+    },
+    {
+      "id": "log-pamu9x3wb",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 13616054375. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:09:56.517Z"
+    },
+    {
+      "id": "log-1bwqwec1r",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 13616054375 for 10 PKR (ID: 604576834)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:09:47.172Z"
+    },
+    {
+      "id": "log-jp0lgukai",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 13374539972. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:09:47.061Z"
+    },
+    {
+      "id": "log-9sl1x10b8",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 13374539972 for 10 PKR (ID: 604576493)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:09:37.575Z"
+    },
+    {
+      "id": "log-kbn728c47",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19147502329: 88018",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:07:04.239Z"
+    },
+    {
+      "id": "log-6hhngz138",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19147502329: 88018",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:06:57.721Z"
+    },
+    {
+      "id": "log-9r4o039u6",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19147502329 for 9.6 PKR (ID: 604568475)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:05:28.149Z"
+    },
+    {
+      "id": "log-3r84mftyx",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18654863813 for 10 PKR (ID: 604567658)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T15:05:03.233Z"
+    },
+    {
+      "id": "log-4ypyukw7c",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 12193294630 (ID: 604488786)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:54.849Z"
+    },
+    {
+      "id": "log-q4yp90p83",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 12193294630 (ID: 604488786)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:54.536Z"
+    },
+    {
+      "id": "log-pmxvut4ka",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 18154170713 (ID: 604489284)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:54.173Z"
+    },
+    {
+      "id": "log-6kavavelu",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 18153901174 (ID: 604489663)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:53.810Z"
+    },
+    {
+      "id": "log-z36t73iqd",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 18153649188 (ID: 604490046)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:53.338Z"
+    },
+    {
+      "id": "log-fxapzqkn2",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 18058722737 (ID: 604496442)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:52.982Z"
+    },
+    {
+      "id": "log-0dkfsqz1v",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 19302779738 (ID: 604525719)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T15:04:52.616Z"
+    },
+    {
+      "id": "log-ecqixske0",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:12.242Z"
+    },
+    {
+      "id": "log-je6qm7h3k",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:08.555Z"
+    },
+    {
+      "id": "log-vzk1cnlyy",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:08.421Z"
+    },
+    {
+      "id": "log-4swq7sb7m",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:08.411Z"
+    },
+    {
+      "id": "log-orb4gqc3n",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:07.752Z"
+    },
+    {
+      "id": "log-sob9pwfgj",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:07.508Z"
+    },
+    {
+      "id": "log-f2gyglo48",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:50:07.275Z"
+    },
+    {
+      "id": "log-f0ccix8gj",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:49:32.770Z"
+    },
+    {
+      "id": "log-l2gzqzw8a",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:49:32.660Z"
+    },
+    {
+      "id": "log-jjv97oij1",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:49:32.107Z"
+    },
+    {
+      "id": "log-a23lk8uen",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:49:31.981Z"
+    },
+    {
+      "id": "log-g3hdl4c2n",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:49:31.511Z"
+    },
+    {
+      "id": "log-fp78oa8kq",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 12164658202: 45881",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:49:31.190Z"
+    },
+    {
+      "id": "log-oj6kzb7ou",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 12164658202 for 9.6 PKR (ID: 604531163)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T14:46:46.645Z"
+    },
+    {
+      "id": "log-a5ffemjpr",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19302779738 for 10 PKR (ID: 604525719)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:44:04.692Z"
+    },
+    {
+      "id": "log-zlf4k41w9",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15674425068: 19425",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:41:40.775Z"
+    },
+    {
+      "id": "log-73onb6d6i",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15674425068: 19425",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:41:40.768Z"
+    },
+    {
+      "id": "log-l22xjtqz2",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 15674425068 for 9.6 PKR (ID: 604519029)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:40:32.021Z"
+    },
+    {
+      "id": "log-aj5aljze4",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 17178286372: 05566",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:40:01.653Z"
+    },
+    {
+      "id": "log-gf0jm2s0r",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 17178286372: 05566",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:40:01.152Z"
+    },
+    {
+      "id": "log-t85yqn12k",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 17178286372 for 9.6 PKR (ID: 604516502)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T14:39:10.445Z"
+    },
+    {
+      "id": "log-7cc1h0cnd",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 17244129109: 94726",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:38:42.539Z"
+    },
+    {
+      "id": "log-elgoavze0",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 17244129109: 94726",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:38:36.878Z"
+    },
+    {
+      "id": "log-8h1fhodu6",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 17244129109 for 9.6 PKR (ID: 604514469)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:38:05.966Z"
+    },
+    {
+      "id": "log-d00xwqhy7",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16283994462: 66155",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:36:30.048Z"
+    },
+    {
+      "id": "log-yh46kqu7j",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16283994462: 66155",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:36:23.053Z"
+    },
+    {
+      "id": "log-9258nhvoa",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16283994462 for 9.6 PKR (ID: 604509589)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T14:35:41.181Z"
+    },
+    {
+      "id": "log-uaiam93no",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 14245619955: 70064",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:31:10.611Z"
+    },
+    {
+      "id": "log-f5xqlbk0r",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 14245619955: 70064",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:31:10.095Z"
+    },
+    {
+      "id": "log-a66ktksdj",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 14245619955: 70064",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:30:54.450Z"
+    },
+    {
+      "id": "log-rr6ik0ynr",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 14245619955: 70064",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:30:47.026Z"
+    },
+    {
+      "id": "log-9b3rgbaf0",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16619972581: 64706",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:30:07.656Z"
+    },
+    {
+      "id": "log-njr4nijw9",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 16619972581: 64706",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:30:03.459Z"
+    },
+    {
+      "id": "log-zqhcn3x2m",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 14245619955 for 9.6 PKR (ID: 604497758)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T14:29:54.278Z"
+    },
+    {
+      "id": "log-klntamsuu",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16619972581 for 9.6 PKR (ID: 604496896)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:29:31.465Z"
+    },
+    {
+      "id": "log-nc3wtpybm",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18058722737 for 10 PKR (ID: 604496442)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:29:16.489Z"
+    },
+    {
+      "id": "log-sf6h1v6sk",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadalinaich67@gmail.com",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:28:35.659Z"
+    },
+    {
+      "id": "log-qtxuen46f",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:28:18.413Z"
+    },
+    {
+      "id": "log-92znltiyp",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:28:08.051Z"
+    },
+    {
+      "id": "log-obcvx4rim",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadkhannaich00@gmail.com",
+      "user_id": "admin-1",
+      "user_email": "fahadkhannaich00@gmail.com",
+      "timestamp": "2026-09-01T14:27:43.246Z"
+    },
+    {
+      "id": "log-r44zavmuy",
+      "action": "USER_LOGIN",
+      "details": "Logged in naichq4deer@gmail.com",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-09-01T14:27:20.841Z"
+    },
+    {
+      "id": "log-i1ceqmicu",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18153649188 for 10 PKR (ID: 604490046)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:26:06.542Z"
+    },
+    {
+      "id": "log-y0q9vmqqf",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18153901174 for 10 PKR (ID: 604489663)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:25:54.780Z"
+    },
+    {
+      "id": "log-g2xczf71n",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18154170713 for 10 PKR (ID: 604489284)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:25:43.585Z"
+    },
+    {
+      "id": "log-kc448ly76",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 12193294630 for 10 PKR (ID: 604488786)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T14:25:29.817Z"
+    },
+    {
+      "id": "log-nmo7esh15",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 16402737417 (ID: 604314788)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:25:24.509Z"
+    },
+    {
+      "id": "log-uj1t3rno5",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 15726000034 (ID: 604315204)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:25:24.020Z"
+    },
+    {
+      "id": "log-a1yr6kr61",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 12796885238 (ID: 604315653)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T14:25:23.567Z"
+    },
+    {
+      "id": "log-j8v6j3o9f",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 12796885238 for 10 PKR (ID: 604315653)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T12:55:49.210Z"
+    },
+    {
+      "id": "log-e67bkq45f",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 15726000034 for 10 PKR (ID: 604315204)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T12:55:34.990Z"
+    },
+    {
+      "id": "log-0lmypex25",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16402737417 for 10 PKR (ID: 604314788)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T12:55:22.716Z"
+    },
+    {
+      "id": "log-g1yl14lhl",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 16864651944. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-09-01T12:55:19.641Z"
+    },
+    {
+      "id": "log-npenoj5c0",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16864651944 for 10 PKR (ID: 604314103)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-09-01T12:55:02.712Z"
+    },
+    {
+      "id": "log-z9c8a7sdd",
+      "action": "DEPOSIT_REQUEST",
+      "details": "Submitted deposit request of 100 PKR via Jazzcash (TID: 03001116338)",
+      "user_id": "u-c029be12",
+      "user_email": "basitnaich0@gmail.com",
+      "timestamp": "2026-09-01T07:09:09.347Z"
+    },
+    {
+      "id": "log-p6an4h9f5",
+      "action": "DEPOSIT_REQUEST",
+      "details": "Submitted deposit request of 100 PKR via Jazzcash (TID: 03001116338)",
+      "user_id": "u-c029be12",
+      "user_email": "basitnaich0@gmail.com",
+      "timestamp": "2026-09-01T07:07:16.090Z"
+    },
+    {
+      "id": "log-cfbxyv5k9",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19793638075: 69340",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:11:05.083Z"
+    },
+    {
+      "id": "log-vtetficsj",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19793638075: 69340",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:10:59.052Z"
+    },
+    {
+      "id": "log-t1ava4ef5",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19793638075 for 10 PKR (ID: 602209174)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:10:41.636Z"
+    },
+    {
+      "id": "log-4ghqk7aux",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19718128424: 98671",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:09:44.877Z"
+    },
+    {
+      "id": "log-08j7um18q",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19718128424: 98671",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:09:40.013Z"
+    },
+    {
+      "id": "log-sqvlfbyax",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19718128424 for 10 PKR (ID: 602206142)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:09:18.441Z"
+    },
+    {
+      "id": "log-gs53zouc9",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19517215186: 92426",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:07:43.572Z"
+    },
+    {
+      "id": "log-k8oh6u3jg",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19517215186: 92426",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:07:38.116Z"
+    },
+    {
+      "id": "log-j1c0zdd6x",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19517215186 for 10 PKR (ID: 602201319)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:07:14.049Z"
+    },
+    {
+      "id": "log-f78fd3net",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 13868334992: 22492",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:06:26.631Z"
+    },
+    {
+      "id": "log-nt1vhmtyj",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 13868334992: 22492",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:06:21.761Z"
+    },
+    {
+      "id": "log-jve1lh6xr",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 13868334992 for 10 PKR (ID: 602198927)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:06:06.972Z"
+    },
+    {
+      "id": "log-jm0dsd0k6",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19478888280: 48976",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:05:10.645Z"
+    },
+    {
+      "id": "log-s4e8bwkqv",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19478888280: 48976",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:05:05.746Z"
+    },
+    {
+      "id": "log-q1y26xy80",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 19416217301. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:04:42.202Z"
+    },
+    {
+      "id": "log-gpf3fxtdc",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19478888280 for 10 PKR (ID: 602195532)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:04:38.784Z"
+    },
+    {
+      "id": "log-jp0mavp1y",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19416217301 for 10 PKR (ID: 602192708)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:03:25.581Z"
+    },
+    {
+      "id": "log-xh51cn5ir",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19318699914: 48580",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:02:07.675Z"
+    },
+    {
+      "id": "log-2avzyabi9",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19318699914: 48580",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:02:02.807Z"
+    },
+    {
+      "id": "log-6oomelyri",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 19318699914 for 10 PKR (ID: 602188459)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:01:36.927Z"
+    },
+    {
+      "id": "log-sbhd2tni5",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 13692400228: 61586",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:00:28.123Z"
+    },
+    {
+      "id": "log-18aqxc9xd",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 13692400228: 61586",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T16:00:23.309Z"
+    },
+    {
+      "id": "log-m6qhhxmi8",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 13692400228 for 10 PKR (ID: 602184980)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T16:00:05.141Z"
+    },
+    {
+      "id": "log-bvpa3ppqb",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:29.554Z"
+    },
+    {
+      "id": "log-u0zbhz1fd",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:28.596Z"
+    },
+    {
+      "id": "log-33zhwaplo",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:28.567Z"
+    },
+    {
+      "id": "log-8nkqkuf17",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:28.478Z"
+    },
+    {
+      "id": "log-6joyv53vc",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:28.375Z"
+    },
+    {
+      "id": "log-mpgb1tr06",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:27.840Z"
+    },
+    {
+      "id": "log-7mru7zr3u",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:27.284Z"
+    },
+    {
+      "id": "log-dezxf6cvk",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:25.764Z"
+    },
+    {
+      "id": "log-jihosf2wq",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:14.266Z"
+    },
+    {
+      "id": "log-uneeue6zx",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:12.812Z"
+    },
+    {
+      "id": "log-vyh0x59xz",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:11.660Z"
+    },
+    {
+      "id": "log-wkx39a8xs",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:10.217Z"
+    },
+    {
+      "id": "log-6ysvud1ul",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:09.680Z"
+    },
+    {
+      "id": "log-09hz32q3b",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:08.948Z"
+    },
+    {
+      "id": "log-05zd8k6ro",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:05.582Z"
+    },
+    {
+      "id": "log-03tm13jml",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:02.669Z"
+    },
+    {
+      "id": "log-gp9acroz8",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:18:01.121Z"
+    },
+    {
+      "id": "log-957rbqj2z",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:17:53.482Z"
+    },
+    {
+      "id": "log-boy4tfcmz",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 15393064188: 88304",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:17:49.427Z"
+    },
+    {
+      "id": "log-kdfaznghy",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 15393064188 for 10 PKR (ID: 602080001)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T15:14:30.183Z"
+    },
+    {
+      "id": "log-8bx50wsiw",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 18108887737. Balance refunded.",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:26.914Z"
+    },
+    {
+      "id": "log-6ol5zw6wo",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 18158878908: 93797",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:24.004Z"
+    },
+    {
+      "id": "log-0ycvz8wak",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 18158878908: 93797",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:23.146Z"
+    },
+    {
+      "id": "log-pdr3lxstq",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 18158878908: 93797",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:23.092Z"
+    },
+    {
+      "id": "log-h76j2t16f",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 18158878908: 93797",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:23.085Z"
+    },
+    {
+      "id": "log-26g4l0bge",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 18158878908: 93797",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:22.974Z"
+    },
+    {
+      "id": "log-gq6uqyr6h",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 18158878908: 93797",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T15:06:22.895Z"
+    },
+    {
+      "id": "log-wobclvd0o",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18158878908 for 10 PKR (ID: 602051353)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T15:02:24.677Z"
+    },
+    {
+      "id": "log-6a42mnd1g",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18108887737 for 10 PKR (ID: 602043477)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T14:58:52.221Z"
+    },
+    {
+      "id": "log-9ydwqsvd9",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 13094254769: 04051",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T14:18:09.339Z"
+    },
+    {
+      "id": "log-0rjdrf1xo",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 13094254769 for 10 PKR (ID: 601967169)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T14:17:37.864Z"
+    },
+    {
+      "id": "log-hpx3o8mr9",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 18402821713 (ID: 601572088)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T14:17:32.894Z"
+    },
+    {
+      "id": "log-aqigw41ly",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 12409807596 (ID: 601581318)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-31T14:17:32.530Z"
+    },
+    {
+      "id": "log-h2tb0t5y7",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 12409807596 for 10 PKR (ID: 601581318)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T11:01:24.409Z"
+    },
+    {
+      "id": "log-8pwezwj2k",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 18402821713 for 10 PKR (ID: 601572088)",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T10:56:32.999Z"
+    },
+    {
+      "id": "log-fm56mlk4o",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadalinaich67@gmail.com",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T10:56:05.279Z"
+    },
+    {
+      "id": "log-jfsb2ciik",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-08-31T10:55:18.706Z"
+    },
+    {
+      "id": "log-9kono178e",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-08-31T10:55:15.202Z"
+    },
+    {
+      "id": "log-3gb1e4pya",
+      "action": "SETTINGS_UPDATE",
+      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, mail_service_code, mail_domain, mail_ref, mail_alias, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
+      "user_id": "admin-1",
+      "user_email": null,
+      "timestamp": "2026-08-31T10:55:14.492Z"
+    },
+    {
+      "id": "log-gd1ud6350",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadkhannaich00@gmail.com",
+      "user_id": "admin-1",
+      "user_email": "fahadkhannaich00@gmail.com",
+      "timestamp": "2026-08-31T10:54:38.105Z"
+    },
+    {
+      "id": "log-4hhb0rr7u",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadalinaich67@gmail.com",
+      "user_id": "u-0c55b0c9",
+      "user_email": "fahadalinaich67@gmail.com",
+      "timestamp": "2026-08-31T10:54:25.344Z"
+    },
+    {
+      "id": "log-30icq9z04",
+      "action": "DEPOSIT_REQUEST",
+      "details": "Submitted deposit request of 100 PKR via Jazzcash (TID: 03081290490)",
+      "user_id": "u-c029be12",
+      "user_email": "basitnaich0@gmail.com",
+      "timestamp": "2026-08-30T19:05:40.589Z"
+    },
+    {
+      "id": "log-gueorpvyi",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 14406920915: 76569",
+      "user_id": "u-7b9cfef3",
+      "user_email": null,
+      "timestamp": "2026-08-30T18:39:21.721Z"
+    },
+    {
+      "id": "log-mv946uuzt",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 14406920915 for 8.6 PKR (ID: 600042803)",
       "user_id": "u-7b9cfef3",
       "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T20:22:35.897Z"
+      "timestamp": "2026-08-30T18:37:48.300Z"
     },
     {
-      "id": "log-9o60ksest",
-      "action": "FB_IDS_PURCHASE",
-      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "id": "log-gpq9xgtn1",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 17173139801: 59483",
+      "user_id": "u-7b9cfef3",
+      "user_email": null,
+      "timestamp": "2026-08-30T18:35:09.484Z"
+    },
+    {
+      "id": "log-udojqgbmx",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 17173139801: 59483",
+      "user_id": "u-7b9cfef3",
+      "user_email": null,
+      "timestamp": "2026-08-30T18:35:05.098Z"
+    },
+    {
+      "id": "log-hw58ejlcs",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 17173139801 for 8.6 PKR (ID: 600037144)",
       "user_id": "u-7b9cfef3",
       "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T20:22:33.681Z"
+      "timestamp": "2026-08-30T18:33:22.909Z"
     },
     {
-      "id": "log-zj7nrapeu",
-      "action": "FB_IDS_PURCHASE",
-      "details": "Bought 1 Facebook IDs for 32 PKR",
+      "id": "log-k1o4kbdqb",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 16802679881. Balance refunded.",
+      "user_id": "u-7b9cfef3",
+      "user_email": null,
+      "timestamp": "2026-08-30T18:30:02.539Z"
+    },
+    {
+      "id": "log-kks9rp3js",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16802679881 for 8.6 PKR (ID: 600024405)",
       "user_id": "u-7b9cfef3",
       "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T20:22:30.164Z"
+      "timestamp": "2026-08-30T18:24:26.989Z"
     },
     {
-      "id": "log-k0jl2hy5j",
-      "action": "FB_IDS_PURCHASE",
-      "details": "Bought 1 Facebook IDs for 32 PKR",
-      "user_id": "u-7b9cfef3",
-      "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T20:22:28.204Z"
-    },
-    {
-      "id": "log-gub6ayhn5",
-      "action": "FB_IDS_PURCHASE",
-      "details": "Bought 1 Facebook IDs for 32 PKR",
-      "user_id": "u-7b9cfef3",
-      "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T20:22:25.094Z"
-    },
-    {
-      "id": "log-fk0bbix39",
+      "id": "log-sfz9j2bw6",
       "action": "USER_GOOGLE_LOGIN",
       "details": "Logged in via Google: fahdiikhann@gmail.com",
       "user_id": "u-7b9cfef3",
       "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T20:21:51.976Z"
+      "timestamp": "2026-08-30T18:23:36.763Z"
     },
     {
-      "id": "log-yc5wqm25d",
+      "id": "log-ri7gchg6y",
       "action": "USER_LOGIN",
-      "details": "Logged in admin@smsflow.com",
-      "user_id": "admin-1",
-      "user_email": "admin@smsflow.com",
-      "timestamp": "2026-08-29T20:00:30.787Z"
+      "details": "Logged in meermohammad986@gmail.com",
+      "user_id": "u-1c5928e0",
+      "user_email": "meermohammad986@gmail.com",
+      "timestamp": "2026-08-30T18:22:38.716Z"
     },
     {
-      "id": "log-x9a12s0ne",
-      "action": "NUMBER_CANCEL",
-      "details": "Client cancelled number 17624204388. Balance refunded.",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T20:00:12.046Z"
+      "id": "log-361y4k7we",
+      "action": "USER_REGISTER",
+      "details": "Registered new user meermohammad986@gmail.com (automatically verified).",
+      "user_id": "u-1c5928e0",
+      "user_email": "meermohammad986@gmail.com",
+      "timestamp": "2026-08-30T17:45:44.455Z"
     },
     {
-      "id": "log-2akxd93dg",
-      "action": "NUMBER_PURCHASE",
-      "details": "Bought virtual number 17624204388 for 14 PKR (ID: 597790629)",
-      "user_id": "admin-1",
-      "user_email": "admin@smsflow.com",
-      "timestamp": "2026-08-29T20:00:07.316Z"
-    },
-    {
-      "id": "log-bm7iwffiw",
-      "action": "SETTINGS_UPDATE",
-      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, vsimpro_api_key",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:59:54.772Z"
-    },
-    {
-      "id": "log-qovga9hus",
-      "action": "SERVICE_TOGGLE",
-      "details": "Toggled service go to true",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:57:27.196Z"
-    },
-    {
-      "id": "log-3liqk3tri",
-      "action": "SETTINGS_UPDATE",
-      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:54:56.838Z"
-    },
-    {
-      "id": "log-3oo6557ok",
-      "action": "SETTINGS_UPDATE",
-      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:54:16.687Z"
-    },
-    {
-      "id": "log-6q3grz1m0",
-      "action": "SERVICE_TOGGLE",
-      "details": "Toggled service go to false",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:53:06.612Z"
-    },
-    {
-      "id": "log-570j0708j",
-      "action": "COUNTRIES_DISCOVER",
-      "details": "Discovered and added cheap country configurations. Total now: 4",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:52:14.828Z"
-    },
-    {
-      "id": "log-gn9405f3i",
-      "action": "SETTINGS_UPDATE",
-      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:51:51.899Z"
-    },
-    {
-      "id": "log-eeydibbv8",
-      "action": "COUNTRIES_DISCOVER",
-      "details": "Discovered and added cheap country configurations. Total now: 4",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:51:03.453Z"
-    },
-    {
-      "id": "log-cw6r3txhc",
-      "action": "COUNTRIES_DISCOVER",
-      "details": "Discovered and added cheap country configurations. Total now: 4",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:51:02.159Z"
-    },
-    {
-      "id": "log-ju1a0wdp0",
-      "action": "COUNTRIES_DISCOVER",
-      "details": "Discovered and added cheap country configurations. Total now: 4",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:50:59.488Z"
-    },
-    {
-      "id": "log-20jquzmsr",
-      "action": "SETTINGS_UPDATE",
-      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info, otp_api_key, vsimpro_api_key, smsbower_base_url",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:44:19.570Z"
-    },
-    {
-      "id": "log-8sa5hieo7",
-      "action": "BALANCE_ADJUST",
-      "details": "Admin manually adjusted balance of fahdiikhann@gmail.com by 500 PKR. New: 500",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:44:04.450Z"
-    },
-    {
-      "id": "log-6mlwmazju",
-      "action": "USER_LOGIN",
-      "details": "Logged in admin@smsflow.com",
-      "user_id": "admin-1",
-      "user_email": "admin@smsflow.com",
-      "timestamp": "2026-08-29T19:43:53.137Z"
-    },
-    {
-      "id": "log-jjkt652tr",
-      "action": "USER_GOOGLE_REGISTER",
-      "details": "Registered and logged in via Google: fahdiikhann@gmail.com",
+      "id": "log-brto5744m",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdiikhann@gmail.com",
       "user_id": "u-7b9cfef3",
       "user_email": "fahdiikhann@gmail.com",
-      "timestamp": "2026-08-29T19:29:39.065Z"
+      "timestamp": "2026-08-30T17:43:37.899Z"
     },
     {
-      "id": "log-aooqtq6wt",
-      "action": "USER_GOOGLE_LOGIN",
-      "details": "Logged in via Google: fahdinaich@gmail.com",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:24:50.879Z"
+      "id": "log-0oygbwzlb",
+      "action": "USER_REGISTER",
+      "details": "Registered new user basitnaich0@gmail.com (automatically verified).",
+      "user_id": "u-c029be12",
+      "user_email": "basitnaich0@gmail.com",
+      "timestamp": "2026-08-30T17:02:23.204Z"
     },
     {
-      "id": "log-7hbtu0cla",
-      "action": "NUMBER_CANCEL",
-      "details": "Client cancelled number 12536796608. Balance refunded.",
-      "user_id": "u-0015826b",
-      "timestamp": "2026-08-29T19:18:32.272Z"
+      "id": "log-arb8lhk9i",
+      "action": "PASSWORD_RESET",
+      "details": "Password reset successfully completed for demo account",
+      "user_id": "client-1",
+      "user_email": "client@smsflow.com",
+      "timestamp": "2026-08-30T17:01:17.319Z"
     },
     {
-      "id": "log-vyqdtuq8d",
+      "id": "log-jjesrbgvr",
+      "action": "FORGOT_PASSWORD",
+      "details": "Requested password reset for basitnaich0@gmail.com",
+      "user_id": null,
+      "user_email": null,
+      "timestamp": "2026-08-30T17:01:16.844Z"
+    },
+    {
+      "id": "log-ilwllu5uk",
+      "action": "PASSWORD_RESET",
+      "details": "Password reset successfully completed for demo account",
+      "user_id": "client-1",
+      "user_email": "client@smsflow.com",
+      "timestamp": "2026-08-30T17:01:07.765Z"
+    },
+    {
+      "id": "log-v8jru85gp",
+      "action": "FORGOT_PASSWORD",
+      "details": "Requested password reset for basitnaich0@gmail.com",
+      "user_id": null,
+      "user_email": null,
+      "timestamp": "2026-08-30T17:01:07.296Z"
+    },
+    {
+      "id": "log-pe3uwg8m2",
+      "action": "PASSWORD_RESET",
+      "details": "Password reset successfully completed for demo account",
+      "user_id": "client-1",
+      "user_email": "client@smsflow.com",
+      "timestamp": "2026-08-30T17:00:51.415Z"
+    },
+    {
+      "id": "log-6ozc0emk8",
+      "action": "FORGOT_PASSWORD",
+      "details": "Requested password reset for basitnaich0@gmail.com",
+      "user_id": null,
+      "user_email": null,
+      "timestamp": "2026-08-30T17:00:49.802Z"
+    },
+    {
+      "id": "log-6g84atxkf",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 12254516284 (ID: 599372879)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-30T12:10:15.211Z"
+    },
+    {
+      "id": "log-pnsnmquvy",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 16892682383 (ID: 599384251)",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T12:10:14.748Z"
+    },
+    {
+      "id": "log-84hb3pv36",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 12254516284 (ID: 599372879)",
+      "user_id": "u-0c55b0c9",
+      "user_email": null,
+      "timestamp": "2026-08-30T12:10:14.677Z"
+    },
+    {
+      "id": "log-m540k7reo",
+      "action": "NUMBER_AUTO_EXPIRE",
+      "details": "Auto-refunded expired number 16892682383 (ID: 599384251)",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T12:10:14.332Z"
+    },
+    {
+      "id": "log-vpxxka6oc",
       "action": "NUMBER_PURCHASE",
-      "details": "Bought virtual number 12536796608 for 14 PKR (ID: 597707769)",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:18:21.091Z"
+      "details": "Bought virtual number 16892682383 for 8.6 PKR (ID: 599384251)",
+      "user_id": "u-d42e10ed",
+      "user_email": "naichq4deer@gmail.com",
+      "timestamp": "2026-08-30T11:47:59.701Z"
     },
     {
-      "id": "log-vsdiwvnss",
-      "action": "USER_GOOGLE_LOGIN",
-      "details": "Logged in via Google: fahdinaich@gmail.com",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:18:14.579Z"
+      "id": "log-k60s2g3v7",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 15416588587. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T11:47:22.472Z"
     },
     {
-      "id": "log-xelcit4kq",
-      "action": "SETTINGS_UPDATE",
-      "details": "Updated settings keys: countries, public_otp_url, short_link_prefix, gmail_price, gmail_mail_price, gmail_mail_max_price, deposit_methods, contact_info",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:18:05.874Z"
+      "id": "log-ibrmv0wdl",
+      "action": "NUMBER_CANCEL",
+      "details": "Client cancelled number 15416588587. Balance refunded.",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T11:47:19.786Z"
     },
     {
-      "id": "log-pdnse1occ",
-      "action": "USER_LOGIN",
-      "details": "Logged in admin@smsflow.com",
-      "user_id": "admin-1",
-      "user_email": "admin@smsflow.com",
-      "timestamp": "2026-08-29T19:17:03.894Z"
+      "id": "log-dgukcgx0k",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19869467354: 60216",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T11:47:12.221Z"
     },
     {
-      "id": "log-j76b0ijv7",
-      "action": "USER_GOOGLE_LOGIN",
-      "details": "Logged in via Google: fahdinaich@gmail.com",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:16:46.275Z"
+      "id": "log-1y1vd1bh8",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19869467354: 60216",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T11:47:12.192Z"
     },
     {
-      "id": "log-3r80f6sui",
-      "action": "DEPOSIT_APPROVE",
-      "details": "Approved 500 PKR for client fahdinaich@gmail.com",
-      "user_id": "admin-1",
-      "timestamp": "2026-08-29T19:16:42.523Z"
+      "id": "log-gpdunx9zc",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19869467354: 60216",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T11:47:12.168Z"
     },
     {
-      "id": "log-v56ebawel",
-      "action": "USER_LOGIN",
-      "details": "Logged in admin@smsflow.com",
-      "user_id": "admin-1",
-      "user_email": "admin@smsflow.com",
-      "timestamp": "2026-08-29T19:16:33.193Z"
-    },
-    {
-      "id": "log-oc7s1y8wm",
-      "action": "DEPOSIT_REQUEST",
-      "details": "Submitted deposit request of 500 PKR via EasyPaisa (TID: 7373737)",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:16:28.922Z"
-    },
-    {
-      "id": "log-6kygapu4b",
-      "action": "USER_GOOGLE_LOGIN",
-      "details": "Logged in via Google: fahdinaich@gmail.com",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:16:13.022Z"
-    },
-    {
-      "id": "log-xxr91q54x",
-      "action": "USER_LOGIN",
-      "details": "Logged in admin@smsflow.com",
-      "user_id": "admin-1",
-      "user_email": "admin@smsflow.com",
-      "timestamp": "2026-08-29T19:15:24.179Z"
-    },
-    {
-      "id": "log-8c5x0q7fq",
-      "action": "USER_GOOGLE_LOGIN",
-      "details": "Logged in via Google: fahdinaich@gmail.com",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:15:09.340Z"
-    },
-    {
-      "id": "log-wvjtzzxe1",
-      "action": "USER_GOOGLE_REGISTER",
-      "details": "Registered and logged in via Google: fahdinaich@gmail.com",
-      "user_id": "u-0015826b",
-      "user_email": "fahdinaich@gmail.com",
-      "timestamp": "2026-08-29T19:15:04.794Z"
-    },
-    {
-      "id": "log-1",
-      "action": "SYSTEM_START",
-      "details": "Database initialized with default settings and seed users",
-      "timestamp": "2026-08-29T19:14:44.206Z"
+      "id": "log-notz87fcw",
+      "action": "OTP_RECEIVED",
+      "details": "OTP received for 19869467354: 60216",
+      "user_id": "u-d42e10ed",
+      "user_email": null,
+      "timestamp": "2026-08-30T11:47:12.105Z"
     }
-  ]
+  ],
+  "sessions": {
+    "admin-token": "admin-1",
+    "client-token": "client-1",
+    "tok-0e01b80a114b576514dc1f0ace609254": "u-c029be12",
+    "tok-e4b616bd10773db9fb5bf6ccdac07908": "u-7b9cfef3",
+    "tok-96dc187499ebbf790aecc5b9ff843f21": "u-1c5928e0",
+    "tok-d2e3a69c9b2b798ee8b7655f5f8bf142": "u-1c5928e0",
+    "tok-5b9b94eacb918e1bc238734fb012678c": "u-7b9cfef3",
+    "tok-2a87e434616fb18d2abf0a4163e544bd": "u-0c55b0c9",
+    "tok-6227930b0210a838c3fc53b0f8a5495e": "u-0c55b0c9",
+    "tok-ad909c735ec85d1083e6b0b227bb80c6": "u-d42e10ed",
+    "tok-6010259008124e4576e5af4e4ad02825": "u-0c55b0c9",
+    "tok-6ab2494388604c2704dee09f04e7ccf5": "u-0c55b0c9",
+    "tok-9e6d18faeafb22a07a4da6b9efad2fc6": "u-0c55b0c9",
+    "tok-168a90063bd4d523f3e243619401e746": "u-e245cfa3"
+  }
 }
