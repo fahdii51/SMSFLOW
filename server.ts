@@ -17,8 +17,8 @@ interface CountryConfig {
 }
 
 // Initialize express app
-const app = express();
-const PORT = 3000;
+export const app = express();
+const PORT = Number(process.env.PORT) || 3000;
 
 // Enable CORS for public endpoints and JSON parsing
 app.use(cors({ origin: '*' }));
@@ -69,6 +69,23 @@ function requireAdmin(req: Request, res: Response, next: NextFunction) {
 function logActivity(action: string, details: string, req?: Request) {
   const user = req ? getAuthUser(req) : null;
   db.addLog(action, details, user?.id, user?.email);
+}
+
+let dbInitPromise: Promise<void> | null = null;
+
+async function ensureDatabaseReady() {
+  if (!dbInitPromise) {
+    dbInitPromise = (async () => {
+      try {
+        await db.initMongo();
+        console.log('[SERVER] MongoDB initialized');
+      } catch (err) {
+        console.error('[SERVER] MongoDB initialization failed, fallback to local file DB:', err);
+      }
+    })();
+  }
+
+  await dbInitPromise;
 }
 
 // ==========================================
@@ -1893,11 +1910,11 @@ app.delete('/api/admin/fb-ids/:id', requireAdmin, (req, res) => {
 // ==========================================
 
 async function startServer() {
-  // Connect to MongoDB and fetch latest state before handling any request
-  try {
-    await db.initMongo();
-  } catch (err) {
-    console.error("[SERVER] MongoDB initialization failed, fallback to local file DB:", err);
+  await ensureDatabaseReady();
+
+  if (process.env.VERCEL) {
+    console.log("[SERVER] Vercel runtime detected; skipping local HTTP listener.");
+    return;
   }
 
   if (process.env.NODE_ENV !== "production") {
@@ -1923,4 +1940,10 @@ async function startServer() {
   });
 }
 
-startServer();
+void ensureDatabaseReady();
+
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;

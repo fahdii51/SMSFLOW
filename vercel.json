@@ -7,23 +7,16 @@
   },
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
+      "source": "/api/(.*)",
+      "destination": "/api"
     },
     {
-      "source": "/auth/:path*",
-      "destination": "/auth/:path*"
+      "source": "/auth/(.*)",
+      "destination": "/api"
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "functions": {
-    "api/index.ts": {
-      "runtime": "nodejs18.x",
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  }
+  ]
 }
