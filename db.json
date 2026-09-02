@@ -109,6 +109,16 @@
       "is_verified": true,
       "created_at": "2026-09-02T00:03:39.840Z",
       "updated_at": "2026-09-02T00:03:39.840Z"
+    },
+    {
+      "id": "u-8200cecc",
+      "email": "verify1788307665098@t.com",
+      "full_name": "Verify User",
+      "role": "user",
+      "password_hash": "bd94dcda26fccb4e68d6a31f9b5aac0b571ae266d822620e901ef7ebe3a11d4f",
+      "is_verified": true,
+      "created_at": "2026-09-02T00:07:45.116Z",
+      "updated_at": "2026-09-02T00:07:45.116Z"
     }
   ],
   "wallets": [
@@ -188,6 +198,13 @@
       "balance": 0,
       "created_at": "2026-09-02T00:03:39.843Z",
       "updated_at": "2026-09-02T00:03:39.843Z"
+    },
+    {
+      "id": "w-0rxtm0y",
+      "user_id": "u-8200cecc",
+      "balance": 0,
+      "created_at": "2026-09-02T00:07:45.118Z",
+      "updated_at": "2026-09-02T00:07:45.118Z"
     }
   ],
   "transactions": [
@@ -2844,6 +2861,14 @@
   ],
   "logs": [
     {
+      "id": "log-zu6pugs3s",
+      "action": "USER_REGISTER",
+      "details": "Registered new user verify1788307665098@t.com (automatically verified).",
+      "user_id": "u-8200cecc",
+      "user_email": "verify1788307665098@t.com",
+      "timestamp": "2026-09-02T00:07:45.120Z"
+    },
+    {
       "id": "log-m33ruxo6m",
       "action": "USER_REGISTER",
       "details": "Registered new user testx@example.com (automatically verified).",
@@ -4434,14 +4459,6 @@
       "user_id": "u-d42e10ed",
       "user_email": null,
       "timestamp": "2026-08-30T11:47:12.221Z"
-    },
-    {
-      "id": "log-1y1vd1bh8",
-      "action": "OTP_RECEIVED",
-      "details": "OTP received for 19869467354: 60216",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:12.192Z"
     }
   ],
   "sessions": {
@@ -4459,6 +4476,7 @@
     "tok-6ab2494388604c2704dee09f04e7ccf5": "u-0c55b0c9",
     "tok-9e6d18faeafb22a07a4da6b9efad2fc6": "u-0c55b0c9",
     "tok-168a90063bd4d523f3e243619401e746": "u-e245cfa3",
-    "tok-fb5b547b05eec33f1a4a0953979badcd": "u-191b1056"
+    "tok-fb5b547b05eec33f1a4a0953979badcd": "u-191b1056",
+    "tok-3bd4337a6120a9e4c9bf9958bcedfe86": "u-8200cecc"
   }
 }

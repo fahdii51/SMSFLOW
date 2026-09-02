@@ -4,13 +4,15 @@
  */
 
 export const getApiBaseUrl = (): string => {
-  // In production (Vercel), use the VITE_APP_URL from environment
-  if (import.meta.env.PROD && import.meta.env.VITE_APP_URL) {
-    return import.meta.env.VITE_APP_URL;
-  }
-  
-  // Return empty string to default to relative paths for maximum compatibility,
-  // speed, and absolute immunity against CORS preflight errors in local & preview containers.
+  // Always use relative paths. On Vercel, vercel.json rewrites `/auth/*` and
+  // `/api/*` to the serverless function on the SAME origin, so relative paths
+  // work identically in local dev, preview, and production.
+  //
+  // Using an absolute VITE_APP_URL here caused cross-origin requests: if that
+  // value was stale, used the wrong scheme/domain, or pointed at a protected
+  // deployment, the browser `fetch` threw before any response and surfaced as
+  // "Connection error to server" on sign in / sign up. Relative paths are
+  // immune to that entire class of failure.
   return '';
 };
 
