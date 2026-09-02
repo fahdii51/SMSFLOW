@@ -163,7 +163,13 @@ class Database {
       console.log("[MONGODB] Already connected to MongoDB Atlas.");
       return;
     }
-    const MONGO_URI = "mongodb+srv://fahdiii:Alikhan12@cluster0.4pzbxgh.mongodb.net/?appName=Cluster0";
+
+    const MONGO_URI = (process.env.MONGODB_URI || '').trim();
+    if (!MONGO_URI) {
+      console.warn("[MONGODB] No MONGODB_URI configured; using local fallback data store.");
+      return;
+    }
+
     try {
       console.log("[MONGODB] Connecting to MongoDB Atlas Cluster...");
       const client = new MongoClient(MONGO_URI);
