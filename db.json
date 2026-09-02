@@ -2861,6 +2861,14 @@
   ],
   "logs": [
     {
+      "id": "log-o8qty3fcn",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdiikhann@gmail.com",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-09-02T00:09:11.990Z"
+    },
+    {
       "id": "log-zu6pugs3s",
       "action": "USER_REGISTER",
       "details": "Registered new user verify1788307665098@t.com (automatically verified).",
@@ -4451,14 +4459,6 @@
       "user_id": "u-d42e10ed",
       "user_email": null,
       "timestamp": "2026-08-30T11:47:19.786Z"
-    },
-    {
-      "id": "log-dgukcgx0k",
-      "action": "OTP_RECEIVED",
-      "details": "OTP received for 19869467354: 60216",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:12.221Z"
     }
   ],
   "sessions": {
@@ -4477,6 +4477,7 @@
     "tok-9e6d18faeafb22a07a4da6b9efad2fc6": "u-0c55b0c9",
     "tok-168a90063bd4d523f3e243619401e746": "u-e245cfa3",
     "tok-fb5b547b05eec33f1a4a0953979badcd": "u-191b1056",
-    "tok-3bd4337a6120a9e4c9bf9958bcedfe86": "u-8200cecc"
+    "tok-3bd4337a6120a9e4c9bf9958bcedfe86": "u-8200cecc",
+    "tok-31357909e1acd16ad5b582e7b7bf6443": "u-7b9cfef3"
   }
 }
