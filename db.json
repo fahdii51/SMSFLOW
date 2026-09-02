@@ -99,6 +99,26 @@
       "is_verified": true,
       "created_at": "2026-09-01T23:19:20.373Z",
       "updated_at": "2026-09-01T23:19:20.373Z"
+    },
+    {
+      "id": "u-191b1056",
+      "email": "testx@example.com",
+      "full_name": "Test X",
+      "role": "user",
+      "password_hash": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+      "is_verified": true,
+      "created_at": "2026-09-02T00:03:39.840Z",
+      "updated_at": "2026-09-02T00:03:39.840Z"
+    },
+    {
+      "id": "u-8200cecc",
+      "email": "verify1788307665098@t.com",
+      "full_name": "Verify User",
+      "role": "user",
+      "password_hash": "bd94dcda26fccb4e68d6a31f9b5aac0b571ae266d822620e901ef7ebe3a11d4f",
+      "is_verified": true,
+      "created_at": "2026-09-02T00:07:45.116Z",
+      "updated_at": "2026-09-02T00:07:45.116Z"
     }
   ],
   "wallets": [
@@ -126,9 +146,9 @@
     {
       "id": "w-fl0v4s2",
       "user_id": "u-7b9cfef3",
-      "balance": 322.8,
+      "balance": 312.8,
       "created_at": "2026-08-29T19:29:39.065Z",
-      "updated_at": "2026-08-30T18:37:47.061Z"
+      "updated_at": "2026-09-02T00:09:35.773Z"
     },
     {
       "id": "w-tiqtzuq",
@@ -171,9 +191,33 @@
       "balance": 0,
       "created_at": "2026-09-01T23:19:20.376Z",
       "updated_at": "2026-09-01T23:19:20.376Z"
+    },
+    {
+      "id": "w-rqkrtyg",
+      "user_id": "u-191b1056",
+      "balance": 0,
+      "created_at": "2026-09-02T00:03:39.843Z",
+      "updated_at": "2026-09-02T00:03:39.843Z"
+    },
+    {
+      "id": "w-0rxtm0y",
+      "user_id": "u-8200cecc",
+      "balance": 0,
+      "created_at": "2026-09-02T00:07:45.118Z",
+      "updated_at": "2026-09-02T00:07:45.118Z"
     }
   ],
   "transactions": [
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 16079558377",
+      "txn_id": "ACT-605506907",
+      "id": "tx-qa3j4lnxo",
+      "created_at": "2026-09-02T00:09:36.554Z",
+      "updated_at": "2026-09-02T00:09:36.554Z"
+    },
     {
       "user_id": "u-0c55b0c9",
       "amount": 10,
@@ -1407,6 +1451,22 @@
     }
   ],
   "activations": [
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "605506907",
+      "phone_number": "16079558377",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "waiting",
+      "provider": "smsbower",
+      "token": "ec14ca18af9e",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-7b9cfef3",
+      "id": "act-w6yscaizc",
+      "created_at": "2026-09-02T00:09:36.553Z",
+      "updated_at": "2026-09-02T00:09:36.553Z"
+    },
     {
       "service": "fb",
       "service_name": "Facebook",
@@ -2826,6 +2886,46 @@
     }
   ],
   "logs": [
+    {
+      "id": "log-zjq4c6iwi",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16079558377 for 10 PKR (ID: 605506907)",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-09-02T00:09:36.555Z"
+    },
+    {
+      "id": "log-o8qty3fcn",
+      "action": "USER_GOOGLE_LOGIN",
+      "details": "Logged in via Google: fahdiikhann@gmail.com",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-09-02T00:09:11.990Z"
+    },
+    {
+      "id": "log-zu6pugs3s",
+      "action": "USER_REGISTER",
+      "details": "Registered new user verify1788307665098@t.com (automatically verified).",
+      "user_id": "u-8200cecc",
+      "user_email": "verify1788307665098@t.com",
+      "timestamp": "2026-09-02T00:07:45.120Z"
+    },
+    {
+      "id": "log-m33ruxo6m",
+      "action": "USER_REGISTER",
+      "details": "Registered new user testx@example.com (automatically verified).",
+      "user_id": "u-191b1056",
+      "user_email": "testx@example.com",
+      "timestamp": "2026-09-02T00:03:39.846Z"
+    },
+    {
+      "id": "log-1yc6x1181",
+      "action": "USER_LOGIN",
+      "details": "Logged in fahadkhannaich00@gmail.com",
+      "user_id": "admin-1",
+      "user_email": "fahadkhannaich00@gmail.com",
+      "timestamp": "2026-09-01T23:52:56.174Z"
+    },
     {
       "id": "log-e7quvua2n",
       "action": "USER_REGISTER",
@@ -4385,46 +4485,6 @@
       "user_id": "u-d42e10ed",
       "user_email": null,
       "timestamp": "2026-08-30T11:47:22.472Z"
-    },
-    {
-      "id": "log-ibrmv0wdl",
-      "action": "NUMBER_CANCEL",
-      "details": "Client cancelled number 15416588587. Balance refunded.",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:19.786Z"
-    },
-    {
-      "id": "log-dgukcgx0k",
-      "action": "OTP_RECEIVED",
-      "details": "OTP received for 19869467354: 60216",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:12.221Z"
-    },
-    {
-      "id": "log-1y1vd1bh8",
-      "action": "OTP_RECEIVED",
-      "details": "OTP received for 19869467354: 60216",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:12.192Z"
-    },
-    {
-      "id": "log-gpdunx9zc",
-      "action": "OTP_RECEIVED",
-      "details": "OTP received for 19869467354: 60216",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:12.168Z"
-    },
-    {
-      "id": "log-notz87fcw",
-      "action": "OTP_RECEIVED",
-      "details": "OTP received for 19869467354: 60216",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:12.105Z"
     }
   ],
   "sessions": {
@@ -4441,6 +4501,9 @@
     "tok-6010259008124e4576e5af4e4ad02825": "u-0c55b0c9",
     "tok-6ab2494388604c2704dee09f04e7ccf5": "u-0c55b0c9",
     "tok-9e6d18faeafb22a07a4da6b9efad2fc6": "u-0c55b0c9",
-    "tok-168a90063bd4d523f3e243619401e746": "u-e245cfa3"
+    "tok-168a90063bd4d523f3e243619401e746": "u-e245cfa3",
+    "tok-fb5b547b05eec33f1a4a0953979badcd": "u-191b1056",
+    "tok-3bd4337a6120a9e4c9bf9958bcedfe86": "u-8200cecc",
+    "tok-31357909e1acd16ad5b582e7b7bf6443": "u-7b9cfef3"
   }
 }

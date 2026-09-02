@@ -7,7 +7,9 @@ import {
   FacebookId, DepositRequest, Service, Setting, CountryConfig 
 } from '../src/types';
 
-const DB_FILE = path.join(process.cwd(), 'db.json');
+const DB_FILE = process.env.VERCEL
+  ? '/tmp/smsflow-db.json'
+  : path.join(process.cwd(), 'db.json');
 
 interface Schema {
   users: User[];
@@ -260,7 +262,11 @@ class Database {
   private saveState(state: Schema) {
     try {
       fs.writeFileSync(DB_FILE, JSON.stringify(state, null, 2), 'utf8');
-    } catch (e) {
+    } catch (e: any) {
+      if (e?.code === 'EROFS') {
+        console.warn("[DB] Filesystem is read-only; skipping local file sync.");
+        return;
+      }
       console.error("Error writing database file:", e);
     }
   }
