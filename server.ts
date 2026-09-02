@@ -19,6 +19,7 @@ interface CountryConfig {
 // Initialize express app
 const app = express();
 export { app };
+export default app;
 const PORT = 3000;
 
 // Enable CORS for public endpoints and JSON parsing
@@ -1930,4 +1931,6 @@ async function startServer() {
   }
 }
 
-startServer();
+if (require.main === module) {
+  startServer();
+}

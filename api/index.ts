@@ -1,21 +1,10 @@
-import { app } from '../server.ts';
-import { db } from '../server/db';
-
-let isDbInitialized = false;
+import expressApp from '../dist/server.cjs';
 
 export const config = {
   runtime: 'nodejs',
 };
 
 export default async function handler(req: any, res: any) {
-  if (!isDbInitialized) {
-    try {
-      console.log("[VERCEL SERVERLESS] Initializing database connection...");
-      await db.initMongo();
-      isDbInitialized = true;
-    } catch (err) {
-      console.error("[VERCEL SERVERLESS] MongoDB init error:", err);
-    }
-  }
+  const app = (expressApp as any)?.default ?? expressApp;
   return app(req, res);
 }
