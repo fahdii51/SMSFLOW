@@ -146,9 +146,9 @@
     {
       "id": "w-fl0v4s2",
       "user_id": "u-7b9cfef3",
-      "balance": 322.8,
+      "balance": 312.8,
       "created_at": "2026-08-29T19:29:39.065Z",
-      "updated_at": "2026-08-30T18:37:47.061Z"
+      "updated_at": "2026-09-02T00:09:35.773Z"
     },
     {
       "id": "w-tiqtzuq",
@@ -208,6 +208,16 @@
     }
   ],
   "transactions": [
+    {
+      "user_id": "u-7b9cfef3",
+      "amount": 10,
+      "type": "debit",
+      "description": "Bought Facebook Virtual Number (USA 2): 16079558377",
+      "txn_id": "ACT-605506907",
+      "id": "tx-qa3j4lnxo",
+      "created_at": "2026-09-02T00:09:36.554Z",
+      "updated_at": "2026-09-02T00:09:36.554Z"
+    },
     {
       "user_id": "u-0c55b0c9",
       "amount": 10,
@@ -1441,6 +1451,22 @@
     }
   ],
   "activations": [
+    {
+      "service": "fb",
+      "service_name": "Facebook",
+      "activation_id": "605506907",
+      "phone_number": "16079558377",
+      "cost_usd": 0.034,
+      "selling_price": 10,
+      "status": "waiting",
+      "provider": "smsbower",
+      "token": "ec14ca18af9e",
+      "short_url": "\n\t\t\t\t\t",
+      "created_by_id": "u-7b9cfef3",
+      "id": "act-w6yscaizc",
+      "created_at": "2026-09-02T00:09:36.553Z",
+      "updated_at": "2026-09-02T00:09:36.553Z"
+    },
     {
       "service": "fb",
       "service_name": "Facebook",
@@ -2860,6 +2886,14 @@
     }
   ],
   "logs": [
+    {
+      "id": "log-zjq4c6iwi",
+      "action": "NUMBER_PURCHASE",
+      "details": "Bought virtual number 16079558377 for 10 PKR (ID: 605506907)",
+      "user_id": "u-7b9cfef3",
+      "user_email": "fahdiikhann@gmail.com",
+      "timestamp": "2026-09-02T00:09:36.555Z"
+    },
     {
       "id": "log-o8qty3fcn",
       "action": "USER_GOOGLE_LOGIN",
@@ -4451,14 +4485,6 @@
       "user_id": "u-d42e10ed",
       "user_email": null,
       "timestamp": "2026-08-30T11:47:22.472Z"
-    },
-    {
-      "id": "log-ibrmv0wdl",
-      "action": "NUMBER_CANCEL",
-      "details": "Client cancelled number 15416588587. Balance refunded.",
-      "user_id": "u-d42e10ed",
-      "user_email": null,
-      "timestamp": "2026-08-30T11:47:19.786Z"
     }
   ],
   "sessions": {
