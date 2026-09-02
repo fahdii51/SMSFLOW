@@ -23,8 +23,54 @@ interface Schema {
   logs: { id: string; action: string; details: string; user_id?: string; user_email?: string; timestamp: string }[];
 }
 
+// Salted scrypt hashing. Format: `scrypt$<salt>$<derivedKey>`.
 export function hashPassword(password: string): string {
-  return crypto.createHash('sha256').update(password).digest('hex');
+  const salt = crypto.randomBytes(16).toString('hex');
+  const derived = crypto.scryptSync(password, salt, 64).toString('hex');
+  return `scrypt$${salt}$${derived}`;
+}
+
+// Verifies a password against a stored hash. Supports the new salted scrypt
+// format and transparently falls back to the legacy unsalted SHA-256 format so
+// pre-existing accounts can still log in (and be migrated on next password set).
+export function verifyPassword(password: string, stored: string): boolean {
+  if (!stored) return false;
+  try {
+    if (stored.startsWith('scrypt$')) {
+      const [, salt, hash] = stored.split('$');
+      if (!salt || !hash) return false;
+      const derived = crypto.scryptSync(password, salt, 64);
+      const expected = Buffer.from(hash, 'hex');
+      return derived.length === expected.length && crypto.timingSafeEqual(derived, expected);
+    }
+    // Legacy unsalted SHA-256 fallback
+    const legacy = crypto.createHash('sha256').update(password).digest('hex');
+    const a = Buffer.from(legacy);
+    const b = Buffer.from(stored);
+    return a.length === b.length && crypto.timingSafeEqual(a, b);
+  } catch {
+    return false;
+  }
+}
+
+// Ensures the bootstrap admin exists on the given state. Returns true if it had
+// to create one. Never mutates an existing admin's password or role.
+function ensureAdminExists(data: Schema): boolean {
+  const adminEmail = (process.env.ADMIN_EMAIL || "fahadkhannaich00@gmail.com").toLowerCase();
+  const exists = data.users.some(u => u.role === 'admin' || u.id === 'admin-1' || u.email.toLowerCase() === adminEmail);
+  if (exists) return false;
+  const now = new Date().toISOString();
+  data.users.unshift({
+    id: 'admin-1',
+    email: adminEmail,
+    full_name: 'Administrator',
+    role: 'admin',
+    password_hash: hashPassword(process.env.ADMIN_PASSWORD || 'changeme-admin'),
+    is_verified: true,
+    created_at: now,
+    updated_at: now
+  });
+  return true;
 }
 
 function getInitialDbState(): Schema {
@@ -47,12 +93,17 @@ function getInitialDbState(): Schema {
   const adminId = "admin-1";
   const clientId = "client-1";
 
+  // Bootstrap admin credentials come from env when available. The defaults are
+  // only used to seed a brand-new database and can be changed after first login.
+  const adminEmail = (process.env.ADMIN_EMAIL || "fahadkhannaich00@gmail.com").toLowerCase();
+  const adminPassword = process.env.ADMIN_PASSWORD || "changeme-admin";
+
   const adminUser: User = {
     id: adminId,
-    email: "fahadkhannaich00@gmail.com",
+    email: adminEmail,
     full_name: "Fahad Khan",
     role: "admin",
-    password_hash: hashPassword("Alikhan12"),
+    password_hash: hashPassword(adminPassword),
     is_verified: true,
     created_at: now,
     updated_at: now
@@ -63,7 +114,7 @@ function getInitialDbState(): Schema {
     email: "client@smsflow.com",
     full_name: "Test Client",
     role: "user",
-    password_hash: hashPassword("client123"),
+    password_hash: hashPassword(process.env.CLIENT_PASSWORD || "changeme-client"),
     is_verified: true,
     created_at: now,
     updated_at: now
@@ -138,10 +189,8 @@ function getInitialDbState(): Schema {
     depositRequests: [],
     services: defaultServices,
     settings: defaultSettings,
-    sessions: {
-      "admin-token": adminId,
-      "client-token": clientId
-    },
+    // No pre-seeded sessions. Tokens are issued only after successful auth.
+    sessions: {},
     logs: [
       { id: "log-1", action: "SYSTEM_START", details: "Database initialized with default settings and seed users", timestamp: now }
     ]
@@ -158,55 +207,37 @@ class Database {
 
   public async initMongo() {
     if (this.mongoClient) {
-      console.log("[MONGODB] Already connected to MongoDB Atlas.");
       return;
     }
-    const MONGO_URI = "mongodb+srv://fahdiii:Alikhan12@cluster0.4pzbxgh.mongodb.net/?appName=Cluster0";
+    const MONGO_URI = process.env.MONGODB_URI;
+    if (!MONGO_URI) {
+      console.warn("[MONGODB] MONGODB_URI is not set. Running with local file storage only (state will NOT persist across serverless instances).");
+      return;
+    }
     try {
       console.log("[MONGODB] Connecting to MongoDB Atlas Cluster...");
       const client = new MongoClient(MONGO_URI);
       await client.connect();
       this.mongoClient = client;
-      const dbName = "smsflow";
-      const collection = client.db(dbName).collection<any>("state");
-      
+      const collection = client.db("smsflow").collection<any>("state");
+
       const doc = await collection.findOne({ _id: "smsflow_data" });
       if (doc && doc.data) {
-        console.log("[MONGODB SUCCESS] Successfully loaded database state from MongoDB Atlas!");
+        console.log("[MONGODB SUCCESS] Loaded database state from MongoDB Atlas.");
         this.data = doc.data as Schema;
-        
-        // Ensure sessions exist
-        if (!this.data.sessions) {
-          this.data.sessions = {
-            "admin-token": "admin-1",
-            "client-token": "client-1"
-          };
+        if (!this.data.sessions) this.data.sessions = {};
+        // Guarantee an admin account exists, but never overwrite an existing
+        // password/role (so admins can safely change their credentials).
+        if (ensureAdminExists(this.data)) {
+          await collection.updateOne(
+            { _id: "smsflow_data" },
+            { $set: { data: this.data } },
+            { upsert: true }
+          );
         }
-        
-        // Ensure admin user exists with password Alikhan12
-        const adminIdx = this.data.users.findIndex(u => u.email.toLowerCase() === 'fahadkhannaich00@gmail.com' || u.id === 'admin-1');
-        const adminHash = hashPassword("Alikhan12");
-        if (adminIdx !== -1) {
-          this.data.users[adminIdx].email = 'fahadkhannaich00@gmail.com';
-          this.data.users[adminIdx].password_hash = adminHash;
-          this.data.users[adminIdx].role = 'admin';
-          this.data.users[adminIdx].is_verified = true;
-        } else {
-          this.data.users.unshift({
-            id: 'admin-1',
-            email: 'fahadkhannaich00@gmail.com',
-            full_name: 'Fahad Khan',
-            role: 'admin',
-            password_hash: adminHash,
-            is_verified: true,
-            created_at: new Date().toISOString(),
-            updated_at: new Date().toISOString()
-          });
-        }
-        
-        this.saveState(this.data); // sync local file backup
+        this.saveState(this.data); // local file backup
       } else {
-        console.log("[MONGODB INFO] MongoDB state empty. Seeding initial state to MongoDB Atlas...");
+        console.log("[MONGODB INFO] MongoDB state empty. Seeding initial state...");
         await collection.updateOne(
           { _id: "smsflow_data" },
           { $set: { data: this.data } },
@@ -214,9 +245,28 @@ class Database {
         );
       }
     } catch (err) {
-      console.error("[MONGODB ERROR] Could not connect to MongoDB Atlas, fallback to local database file:", err);
+      console.error("[MONGODB ERROR] Could not connect to MongoDB Atlas, falling back to local database file:", err);
     }
   }
+
+  // Reloads the latest committed state from MongoDB. Called once per request on
+  // serverless so that sessions/wallets created on one instance are visible on
+  // every other instance. No-op when MongoDB is not connected.
+  public async reload() {
+    if (!this.mongoClient) return;
+    try {
+      const collection = this.mongoClient.db("smsflow").collection<any>("state");
+      const doc = await collection.findOne({ _id: "smsflow_data" });
+      if (doc && doc.data) {
+        this.data = doc.data as Schema;
+        if (!this.data.sessions) this.data.sessions = {};
+      }
+    } catch (err) {
+      console.error("[MONGODB RELOAD ERROR] Failed to reload state:", err);
+    }
+  }
+
+
 
   private load(): Schema {
     try {
